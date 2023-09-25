@@ -13,7 +13,7 @@ Data Collection: Employed both digital and on-site survey methods to capture a d
 Data Analysis: Analyzed the collected data to identify prevailing trends, satisfaction levels, and areas needing attention.
 Recommendations: Based on the analysis, provide actionable recommendations to enhance the popcorn's quality, introduce new flavors, adjust pricing, or modify serving sizes.
 
-## Overview of the project assest/2023-09-19_02-19-09.png
+## Overview of the project (assest/2023-09-19_02-19-09.png)
 
 
 
