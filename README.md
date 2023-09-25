@@ -22,10 +22,12 @@ Recommendations: Based on the analysis, provide actionable recommendations to en
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
 
-## Overview of the project ![](assest/2023-09-13_16-20-27.png)
+## Overview of the project ![](assest/2023-09-13_02-14-57.png)
 
 
 # [Project 3: Data cleaning in Excel and Google Sheets]
 
 Overview:
 Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
+
+**## Overview of the project ![](assest/2023-09-13_02-14-57.png)**
