@@ -1,7 +1,7 @@
 # John Adoga Analytics Portfolio
 
 
-#[Project 1: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 1: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 Title: "Cinema Popcorn Feedback Survey Analysis"
 
