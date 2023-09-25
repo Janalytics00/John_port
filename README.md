@@ -3,8 +3,6 @@
 
 # [Project 1: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
-Title: "Cinema Popcorn Feedback Survey Analysis"
-
 Overview:
 Undertook a comprehensive survey project for Exodus Cinemas aimed at gathering customer feedback regarding the popcorn served at the venue. The primary objective was to understand customer preferences, identify areas of improvement, and align the popcorn quality and variety with audience expectations.
 
