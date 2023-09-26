@@ -1,4 +1,4 @@
-![](assest/Twitter cover photo.jpg)
+(assest/Twitter cover photo.jpg)
 
 # John Adoga
 #### Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager
