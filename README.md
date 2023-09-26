@@ -23,9 +23,10 @@ EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janalytics00)](https://github.com/anuraghazra/github-readme-stats)
 
 # [Trading Portfolio From Myfxbook](https://janalytics00.github.io/John_port/Trading-Portofoli-From-Myfxbook)
+My trading portfolio showcases a detailed record of my performance metrics, verified by Myfxbook. It reflects my strategic decision-making skills, risk management, and proficiency in identifying market opportunities. The data-driven insights offer transparency and demonstrate my commitment to consistent growth and effective trading strategies.
 https://www.myfxbook.com/portfolio/ode-adoga/8904175
 
-Overview:  ![](assest/2023-09-12_16-20-27.png)
+Overview:  ![](assest/2023-09-26_19-12-09.png)
 
 
 
