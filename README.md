@@ -1,13 +1,13 @@
-# John Adoga Analytics Portfolio
+(https://pbs.twimg.com/profile_banners/1178820029267222529/1695738505/600x200)
 
-
-### Hi there 👋, John Adoga
+# John Adoga
 #### Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager
-![Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager](https://pbs.twimg.com/profile_banners/1178820029267222529/1695738505/600x200)
+![Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager]
 
 I’m John Adoga from Nigeria, As a seasoned Data Analyst, I have honed my ability to transform raw data into actionable insights. I’m adept at utilizing a range of tools and methodologies to derive meaningful conclusions that drive business & financial decisions. My proficiency in statistical analysis, predictive modeling, and data visualization ensures that the narratives hidden within numbers are effectively communicated to stakeholders.
 
-Skills: EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
+## Skills and Experience 
+EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 - 🔭 I’m currently working on A lot of projects... 
 - 🌱 I’m currently learning German 
