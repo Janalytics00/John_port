@@ -3,16 +3,19 @@
 
 ### Hi there 👋, John Adoga
 #### Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager
-![Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager](https://pbs.twimg.com/profile_banners/1178820029267222529/1680040808/600x200)
+![Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager](https://pbs.twimg.com/profile_banners/1178820029267222529/1695738505/600x200)
 
 I’m John Adoga from Nigeria, As a seasoned Data Analyst, I have honed my ability to transform raw data into actionable insights. I’m adept at utilizing a range of tools and methodologies to derive meaningful conclusions that drive business & financial decisions. My proficiency in statistical analysis, predictive modeling, and data visualization ensures that the narratives hidden within numbers are effectively communicated to stakeholders.
 
 Skills: EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
-- 🔭 I’m currently working on My Own Company 
+- 🔭 I’m currently working on A lot of projects... 
+- 🌱 I’m currently learning German 
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/janalytics00)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/www.linkedin.com/in/john-adoga-6830071a3/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/https://twitter.com/JohnAdoga6)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://www.datascienceportfol.io/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/wordpress.svg' alt='wordpress' height='40'>](https://www.myfxbook.com/portfolio/ode-adoga/8904175)  
+
+
 
 
 
