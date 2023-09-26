@@ -64,9 +64,10 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 
 
 
-# [Project 4: Data cleaning in Excel and Google Sheets]
+# [Project 4: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
 
 Overview:
 Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
 
-**## Overview of the project ![](assest/2023-09-13_02-14-57.png)**
+**## Overview of the project Before![](assest/2023-09-19_02-17-02.png) 
+**## Overview of the project After ![](assest/2023-09-18_23-48-52.png) 
