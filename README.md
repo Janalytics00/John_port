@@ -26,7 +26,7 @@ EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 My trading portfolio showcases a detailed record of my performance metrics, verified by Myfxbook. It reflects my strategic decision-making skills, risk management, and proficiency in identifying market opportunities. The data-driven insights offer transparency and demonstrate my commitment to consistent growth and effective trading strategies.
 The link to the portfolio is below:
 
-https://www.myfxbook.com/portfolio/ode-adoga/8904175
+[Trading Portfolio](https://www.myfxbook.com/portfolio/ode-adoga/8904175) 
 
 Overview:  ![](assest/2023-09-26_19-12-09.png)
 
