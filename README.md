@@ -1,5 +1,7 @@
 # John Adoga Analytics Portfolio
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janalytics00)](https://github.com/anuraghazra/github-readme-stats)
+
 
 # [Project 1: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
