@@ -4,6 +4,8 @@
 #### Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager
 
 I’m John Adoga from Nigeria, As a seasoned Data Analyst, I have honed my ability to transform raw data into actionable insights. I’m adept at utilizing a range of tools and methodologies to derive meaningful conclusions that drive business & financial decisions. My proficiency in statistical analysis, predictive modeling, and data visualization ensures that the narratives hidden within numbers are effectively communicated to stakeholders.
+Versatile and results-driven Day Trader with expertise in stock indices, particularly S&P 500 and Nasdaq 100, and a deep focus on key foreign currency pairs including EUR/USD, GBP/USD, GBP/JPY, and USD/JPY.
+My passion for business and financial analysis is further amplified by a specialization in Human Resource Management, achieved from a comprehensive course conducted by the University of Minnesota on Coursera. This unique blend of trading, data analytics, and HR knowledge equips me with a multifaceted perspective, making me a valuable asset for roles that demand financial savvy, analytical depth, and a human-centric approach.
 
 ## Skills and Experience 
 EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
@@ -19,6 +21,12 @@ EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janalytics00)](https://github.com/anuraghazra/github-readme-stats)
+
+# [Trading Portfolio From Myfxbook](https://janalytics00.github.io/John_port/Trading-Portofoli-From-Myfxbook)
+https://www.myfxbook.com/portfolio/ode-adoga/8904175
+
+Overview:  ![](assest/2023-09-12_16-20-27.png)
+
 
 
 # [Project 1: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
