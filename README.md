@@ -1,5 +1,4 @@
-[[assest/Twitter cover photo.jpg](https://github.com/Janalytics00/John_port/blob/main/assest/Twitter%20cover%20photo.jpg)
-](https://github.com/Janalytics00/John_port/blob/main/assest/Twitter%20cover%20photo.jpg)
+assest/Twitter cover photo.jpg
 
 # John Adoga
 #### Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager
