@@ -57,7 +57,8 @@ With this dashboard, you can visualize these trends at a glance! Proud of this e
 
 Would love to hear your feedback and thoughts! Let's pedal forward with data-driven insights. 🚴‍♀️📈
 
-## Overview of the project ![][I'm an inline-style link](https://github.com/Janalytics00/John_port/blob/main/assest/2023-09-26_03-21-46.png)
+## Overview of the project ![](assest/2023-09-26_03-21-46.png)
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112397816269828097" height="787" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
 
