@@ -25,7 +25,25 @@ Designed and developed an interactive sales dashboard focused on Adidas US marke
 ## Overview of the project ![](assest/2023-09-13_02-14-57.png)
 
 
-# [Project 3: Data cleaning in Excel and Google Sheets]
+
+# [Project 3: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
+
+
+🚴‍♂️ Exciting Project Alert! 📊
+
+Delighted to share my latest creation: A Bike Sales Dashboard crafted in Excel! This interactive tool provides a deep dive into bike sales across regions - Europe, North America, and the Pacific. But what makes it even more intriguing is the layering of data by educational qualification, age ranges, and marital status. Ever wondered who's pedaling more, singles or married folks? Or which age bracket is the most bicycle-inclined?
+
+With this dashboard, you can visualize these trends at a glance! Proud of this endeavor, as it not only hones my analytical skills but also offers invaluable insights for targeted marketing and sales strategies.
+
+Would love to hear your feedback and thoughts! Let's pedal forward with data-driven insights. 🚴‍♀️📈
+
+## Overview of the project ![](assest/2023-09-13_02-14-57.png)
+
+
+
+
+
+# [Project 4: Data cleaning in Excel and Google Sheets]
 
 Overview:
 Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
