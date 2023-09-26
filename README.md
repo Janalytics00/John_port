@@ -1,4 +1,4 @@
-(https://pbs.twimg.com/profile_banners/1178820029267222529/1695738505/600x200)
+![Data Analytics, Trading, and HR](https://pbs.twimg.com/profile_banners/1178820029267222529/1695738505/600x200)
 
 # John Adoga
 #### Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager
