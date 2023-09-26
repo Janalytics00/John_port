@@ -69,5 +69,5 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 Overview:
 Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
 
-## Overview of the project Before ![](assest/2023-08-31_18-10-29.png) 
+## Overview of the project Before ![](assest/2023-08-31_18-19-24.png) 
 ## Overview of the project After ![](assest/2023-09-19_02-19-09.png) 
