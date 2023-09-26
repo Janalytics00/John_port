@@ -1,5 +1,8 @@
 # John Adoga Analytics Portfolio
 
+Hi there,
+I'm John Adoga from Nigeria, As a seasoned Data Analyst, I have honed my ability to transform raw data into actionable insights. I'm adept at utilizing a range of tools and methodologies to derive meaningful conclusions that drive business & financial decisions. My proficiency in statistical analysis, predictive modeling, and data visualization ensures that the narratives hidden within numbers are effectively communicated to stakeholders.
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janalytics00)](https://github.com/anuraghazra/github-readme-stats)
 
 
