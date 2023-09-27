@@ -81,8 +81,28 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 # [Project 4: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
 
 Overview:
-Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
+I Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
 
 ## Overview of the project Before ![](assest/2023-08-31_18-19-24.png) 
 
 ## Overview of the project After ![](assest/2023-09-19_02-19-09.png) 
+
+
+
+# [Project 5: South American Sales Dashboard (2021-2022)](https://janalytics00.github.io/John_port/South-American-Sales-Dashboard-2021-2022)
+
+This dashboard offers a dynamic visual representation of sales trends in South America. Crafted with meticulous attention to detail, it boasts interactive elements, hyperlinks for in-depth external resources, and internal navigational links to enhance user experience.
+
+A deep dive into the data reveals a promising sales trajectory. The latter half of 2021 saw a surge in sales, a momentum which carried over into the first quarter of 2022, showcasing the effectiveness of end-of-year strategies and campaigns. December 2022, in particular, stood out as a pivotal sales month.
+
+Beyond sales, the dashboard paints a vivid picture of customer satisfaction metrics:
+
+Availability: A commendable rating of over 95%, highlighting the brand's consistent presence in the market.
+Hygiene: Impressive feedback with a score of 93%, underlining the commitment to health and safety standards.
+Service: A potential area for improvement, currently rated at 53%, suggesting scope for enhancing customer service operations.
+Quality: With a rating of 86%, it is evident that product excellence remains a top priority.
+From a financial perspective, the dashboard indicates stellar performance with overall sales of 2,544 units and an impressive profit margin, netting a total of $890M.
+
+## Overview of the project After  ![](assest/2023-09-26_03-28-45.png)
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112885235129708544?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
