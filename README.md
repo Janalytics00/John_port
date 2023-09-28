@@ -106,3 +106,17 @@ From a financial perspective, the dashboard indicates stellar performance with o
 ## Overview of the project After  ![](assest/2023-09-26_03-28-45.png)
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112885235129708544?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+
+# [Project 5: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
+
+I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynamic Power BI Dashboard. Key features:
+
+🔍 AI-Powered Q&A: Dive into insights effortlessly. Pose questions like "best-selling state" and let the AI work its magic.
+💡 Operating Profit Analysis: Leveraged 'Key Influencers', a potent AI visualization in Power BI, for a deeper dive into the factors driving profits.
+📅 Interactive Date Slicer: Sales data come alive with a flexible timeline slicer, letting users navigate across different periods with ease.
+... and many more interactive elements, ensuring a comprehensive view of sales data and analytics.
+
+ ## Overview of the project ![](assest/2023-09-28_22-37-27.png)
+ 
+ <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7113289116561108993?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
