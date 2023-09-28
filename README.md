@@ -108,7 +108,7 @@ From a financial perspective, the dashboard indicates stellar performance with o
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112885235129708544?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
-# [Project 5: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
+# [Project 6: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
 
 I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynamic Power BI Dashboard. Key features:
 
