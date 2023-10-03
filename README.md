@@ -126,7 +126,7 @@ I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynami
  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7113289116561108993?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
- # [HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
+ # [Project 7: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
 
  In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
 
@@ -158,4 +158,4 @@ Employee Status Overview: A scorecard displaying the ratio of active employees t
 
 Distance Status Analytics: A donut pie chart depicts the commuting ease for employees, with a significant 63.96% living 'very close' to the workplace.
 
-
+## Overview of the project: ![](assest/2023-10-03_16-47-54.png)
