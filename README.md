@@ -126,9 +126,11 @@ I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynami
  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7113289116561108993?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
+ 
+ 
  # [Project 7: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
 
- In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
+## In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
 
 Scorecard Metrics:
 
@@ -144,18 +146,22 @@ Distance Status Analytics: A donut pie chart depicts the commuting ease for empl
 
 This dashboard serves as an analytical tool for HR professionals to make informed decisions, track demographic shifts, and plan future HR strategies effectively.
 
-In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
-
-Scorecard Metrics:
-
-Total employee count with a breakdown by gender.
-Detailed figures on employees due for promotion, contrasted with those not in the current promotion cycle.
-Service Year Insights: A horizontal bar chart maps out employee tenure, highlighting their loyalty and experience spread.
-
-Employee Job Levels: A vertical bar chart offers a visual breakdown of employees by their job levels, providing a quick overview of the company's hierarchical distribution.
-
-Employee Status Overview: A scorecard displaying the ratio of active employees to those retrenched, offering insights into the company's recent HR moves.
-
-Distance Status Analytics: A donut pie chart depicts the commuting ease for employees, with a significant 63.96% living 'very close' to the workplace.
-
 ## Overview of the project: ![](assest/2023-10-03_16-47-54.png)
+
+A comprehensive table listing each employee slated for promotion, ensuring transparency and traceability.
+A distinct table spotlighting employees who are unfortunately on the retrenchment list, aiding HR in transition and support processes.
+This multifaceted dashboard serves as a powerful tool for HR professionals. By offering both broad statistics and individualized data, it facilitates strategic planning, transparent communication, and efficient decision-making within the human resources domain.
+
+## Overview of the project: ![](assest/2023-10-03_17-12-41.png)
+
+A holistic view of the total employee count, segregated by gender.
+Clear and precise metrics detailing the percentage and number of employees in the promotion pipeline and those who aren't.
+Departmental Promotions Insight:
+
+A stacked bar chart that vividly displays each department alongside the number of employees therein who are due for promotion. This provides a panoramic view of where career advancements are clustered within the company.
+Job Satisfaction Metrics:
+
+A bar chart that offers a snapshot of employee morale and satisfaction. The data overwhelmingly indicates a satisfied workforce, underscoring a healthy organizational culture.
+
+## Overview of the project: ![](assest/2023-10-03_16-54-30.png)
+
