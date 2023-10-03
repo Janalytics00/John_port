@@ -145,13 +145,13 @@ Distance Status Analytics: A donut pie chart depicts the commuting ease for empl
 
 This dashboard serves as an analytical tool for HR professionals to make informed decisions, track demographic shifts, and plan future HR strategies effectively.
 
-## Overview of the project: ![](assest/2023-10-03_16-47-54.png)
+## Overview: ![](assest/2023-10-03_16-47-54.png)
 
 A comprehensive table listing each employee slated for promotion, ensuring transparency and traceability.
 A distinct table spotlighting employees who are unfortunately on the retrenchment list, aiding HR in transition and support processes.
 This multifaceted dashboard serves as a powerful tool for HR professionals. By offering both broad statistics and individualized data, it facilitates strategic planning, transparent communication, and efficient decision-making within the human resources domain.
 
-## Overview of the project: ![](assest/2023-10-03_17-12-41.png)
+## Overview: ![](assest/2023-10-03_17-12-41.png)
 
 A holistic view of the total employee count, segregated by gender.
 Clear and precise metrics detailing the percentage and number of employees in the promotion pipeline and those who aren't.
@@ -162,5 +162,8 @@ Job Satisfaction Metrics:
 
 A bar chart that offers a snapshot of employee morale and satisfaction. The data overwhelmingly indicates a satisfied workforce, underscoring a healthy organizational culture.
 
-## Overview of the project: ![](assest/2023-10-03_16-54-30.png)
+## Overview: ![](assest/2023-10-03_16-54-30.png)
 
+## LinkedIn Embed Below
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7115117175379496960" height="undefined" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
