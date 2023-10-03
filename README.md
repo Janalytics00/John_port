@@ -124,3 +124,38 @@ I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynami
  Below is the LinkedIn embed!
  
  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7113289116561108993?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+
+ # [HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
+
+ In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
+
+Scorecard Metrics:
+
+Total employee count with a breakdown by gender.
+Detailed figures on employees due for promotion, contrasted with those not in the current promotion cycle.
+Service Year Insights: A horizontal bar chart maps out employee tenure, highlighting their loyalty and experience spread.
+
+Employee Job Levels: A vertical bar chart offers a visual breakdown of employees by their job levels, providing a quick overview of the company's hierarchical distribution.
+
+Employee Status Overview: A scorecard displaying the ratio of active employees to those retrenched, offering insights into the company's recent HR moves.
+
+Distance Status Analytics: A donut pie chart depicts the commuting ease for employees, with a significant 63.96% living 'very close' to the workplace.
+
+This dashboard serves as an analytical tool for HR professionals to make informed decisions, track demographic shifts, and plan future HR strategies effectively.
+
+In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
+
+Scorecard Metrics:
+
+Total employee count with a breakdown by gender.
+Detailed figures on employees due for promotion, contrasted with those not in the current promotion cycle.
+Service Year Insights: A horizontal bar chart maps out employee tenure, highlighting their loyalty and experience spread.
+
+Employee Job Levels: A vertical bar chart offers a visual breakdown of employees by their job levels, providing a quick overview of the company's hierarchical distribution.
+
+Employee Status Overview: A scorecard displaying the ratio of active employees to those retrenched, offering insights into the company's recent HR moves.
+
+Distance Status Analytics: A donut pie chart depicts the commuting ease for employees, with a significant 63.96% living 'very close' to the workplace.
+
+
