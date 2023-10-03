@@ -29,7 +29,7 @@ The link to the portfolio is below:
 [Trading Portfolio](https://www.myfxbook.com/portfolio/ode-adoga/8904175) 
 
 Overview:  ![](assest/2023-09-26_19-12-09.png)
-
+## Overwiew of a Payout Certificate from OFP(OverviewFX LTD) :  ![](assest/2023-10-04_00-42-30.png)
 
 
 ## A curated collection showcasing my expertise in data analytics. This portfolio encompasses diverse projects, highlighting my proficiency in data extraction, transformation, visualization, and deriving actionable insights to drive strategic decisions.
