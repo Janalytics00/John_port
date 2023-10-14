@@ -90,14 +90,9 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 1. Geospatial mapping of sales-dense locations 🌍
 2. Leaderboards of our star customers and stellar products ⭐
 3. Evolving line charts capturing a 2-year performance trajectory 📈
+## Product Details
+## Overview ![](assest/2023-10-14_19-18-20.png)
 
-
-
-
-
-
-
-## Overview of the project ![](assest/2023-09-13_02-14-57.png)
 
 
 
