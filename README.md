@@ -55,7 +55,53 @@ Recommendations: Based on the analysis, provide actionable recommendations to en
 
 
 
-# [Project 2: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
+# [Project 2: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
+
+Overview:
+Recently, I embarked on an intricate data analysis project upon a request from Sales Manager Steve.
+### Overview ![](assest/2023-10-14_18-31-15.png)
+
+With attention to detail, I arranged a comprehensive outline based on Steve's needs for his company. Which will serve as a framework for my analysis
+## Overview![](assest/2023-10-14_18-32-39.png)
+
+## Data Cleansing & Transformation utilizing Microsoft SQL
+From the get-go, the database presented multiple challenges. With precision, I cleaned and processed the data using Microsoft SQL, ensuring relevant tables were seamlessly joined to extract the information we needed. I then converted the cleansed data into CSV formats for visualization prowess.
+## Overview ![](assest/2023-10-14_18-14-49.png)
+## Overview ![](assest/2023-10-14_18-15-20.png)
+## Overview ![](assest/2023-10-14_18-14-12.png)
+
+
+Using Power BI, I crafted vivid visuals for sales, customer, and product reports. Highlights include:
+
+Geographical insights pinpointing high-sales locations 📍
+Rankings of top-performing customers and products 🌟
+Comprehensive line charts offering a 2-year company performance overview 📈
+The end result? Clear, data-driven insights that inform and inspire. It's amazing how SQL combined with Power BI's visualization can transform raw data into actionable strategies! Swipe to see some of the visuals! 👉 #DataAnalysis #SQL #PowerBI #PortfolioProject"
+Be
+
+## Customer Details
+The cherry on top? An interactive dashboard is accessible via this PowerBI embed link. Dive in to interact and explore deeper insights! Feedback welcomed! #DataAnalysis #SQL #PowerBI #DataVisualization"
+<iframe title="Data Analyst Project" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMzY1OGIyMDgtM2NhMC00Zjk0LWE0NzItMGFiN2FmMDE1NjVkIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+## Sales Details
+## Overview ![](assest/2023-10-14_16-40-10.png)
+
+🖥️ With Power BI, I sculpted immersive visuals, focusing on sales metrics, customer trends, and product performance. Key insights:
+1. Geospatial mapping of sales-dense locations 🌍
+2. Leaderboards of our star customers and stellar products ⭐
+3. Evolving line charts capturing a 2-year performance trajectory 📈
+
+
+
+
+
+
+
+## Overview of the project ![](assest/2023-09-13_02-14-57.png)
+
+
+
+# [Project 3: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
 
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
@@ -64,7 +110,7 @@ Designed and developed an interactive sales dashboard focused on Adidas US marke
 
 
 
-# [Project 3: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
+# [Project 4: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
 
 
 🚴‍♂️ Exciting Project Alert! 📊
@@ -82,7 +128,7 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 
 
 
-# [Project 4: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
+# [Project 5: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
 
 Overview:
 I Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
@@ -93,7 +139,7 @@ I Engaged in a comprehensive data cleaning initiative utilizing both Excel and G
 
 
 
-# [Project 5: South American Sales Dashboard (2021-2022)](https://janalytics00.github.io/John_port/South-American-Sales-Dashboard-2021-2022)
+# [Project 6: South American Sales Dashboard (2021-2022)](https://janalytics00.github.io/John_port/South-American-Sales-Dashboard-2021-2022)
 
 This dashboard offers a dynamic visual representation of sales trends in South America. Crafted with meticulous attention to detail, it boasts interactive elements, hyperlinks for in-depth external resources, and internal navigational links to enhance user experience.
 
@@ -114,7 +160,7 @@ Below is the LinkedIn embed!
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112885235129708544?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
-# [Project 6: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
+# [Project 7: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
 
 I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynamic Power BI Dashboard. Key features:
 
@@ -131,7 +177,7 @@ I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynami
  
  
 
-# [Project 7: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
+# [Project 8: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
 
 ## In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
 
