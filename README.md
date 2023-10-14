@@ -78,6 +78,8 @@ Rankings of top-performing customers and products 🌟
 Comprehensive line charts offering a 2-year company performance overview 📈
 The end result? Clear, data-driven insights that inform and inspire. It's amazing how SQL combined with Power BI's visualization can transform raw data into actionable strategies! Swipe to see some of the visuals! 👉 #DataAnalysis #SQL #PowerBI #PortfolioProject"
 Be
+## Power BI Data Model
+## Overview ![](assest/2023-10-14_19-47-06.png)
 
 ## Customer Details
 The cherry on top? An interactive dashboard is accessible via this PowerBI embed link. Dive in to interact and explore deeper insights! Feedback welcomed! #DataAnalysis #SQL #PowerBI #DataVisualization"
