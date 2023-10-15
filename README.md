@@ -94,6 +94,8 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 3. Evolving line charts capturing a 2-year performance trajectory 📈
 ## Product Details
 ## Overview ![](assest/2023-10-14_19-18-20.png)
+## LinkedIn Embed
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7119132656189026304?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
 
