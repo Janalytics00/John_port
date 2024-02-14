@@ -1,14 +1,14 @@
 ![](assest/Twitter cover photo.jpg)
 
 # John Adoga
-#### Data & Analytics Analyst. Visualization Expert. Business Analyst. Financial Analyst. Day Trader (Currencies, Equities, Gold). Human Resource Manager
+## Data & Analytics Analyst | Visualization Expert | Business Analyst | Human Resource Manager | HR Analyst
 
-I’m John Adoga from Nigeria, As a seasoned Data Analyst, I have honed my ability to transform raw data into actionable insights. I’m adept at utilizing a range of tools and methodologies to derive meaningful conclusions that drive business & financial decisions. My proficiency in statistical analysis, predictive modeling, and data visualization ensures that the narratives hidden within numbers are effectively communicated to stakeholders.
-Versatile and results-driven Day Trader with expertise in stock indices, particularly S&P 500 and Nasdaq 100, and a deep focus on key foreign currency pairs including EUR/USD, GBP/USD, GBP/JPY, and USD/JPY.
-My passion for business and financial analysis is further amplified by a specialization in Human Resource Management, achieved from a comprehensive course conducted by the University of Minnesota on Coursera. This unique blend of trading, data analytics, and HR knowledge equips me with a multifaceted perspective, making me a valuable asset for roles that demand financial savvy, analytical depth, and a human-centric approach.
+I’m John Adoga from Nigeria, As a seasoned Data Analyst, I have honed my ability to transform raw data into actionable insights. I’m adept at utilizing various tools and methodologies to derive meaningful conclusions that drive business & financial decisions. My proficiency in statistical analysis, predictive modeling, and data visualization ensures that the narratives hidden within numbers are effectively communicated to stakeholders.
+My passion for data analytics and Human Resources is further amplified by a specialization in both the Google Data Analytics Professional Certificate and Human Resource Management Specialization, achieved from a comprehensive course conducted by Google and the University of Minnesota on Coursera. This unique blend of data analytics, and HR knowledge equips me with a multifaceted perspective, making me a valuable asset for roles that demand data savvy, analytical depth, and a human-centric approach.
 
 ## Skills and Experience 
-EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
+MICROSOFT OFFICE 365(WORD, POWERPOINT, ADVANCED EXCEL (POWER PIVOT, VLOOKUP)) GOOGLE SHEETS, GOOGLE SLIDES, PYTHON, SQL - DATABASE MANAGEMENT(BIG QUERY, MYSQL, POSTGRE, SSMS), R. 
+VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 - 🔭 I’m currently working on A lot of projects... 
 - 🌱 I’m currently learning German 
@@ -22,20 +22,182 @@ EXCEL, GOOGLE SHEETS, PYTHON, SQL, R, GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janalytics00)](https://github.com/anuraghazra/github-readme-stats)
 
-# [Trading Portfolio From Myfxbook](https://janalytics00.github.io/John_port/Trading-Portofoli-From-Myfxbook)
-My trading portfolio showcases a detailed record of my performance metrics, verified by Myfxbook. It reflects my strategic decision-making skills, risk management, and proficiency in identifying market opportunities. The data-driven insights offer transparency and demonstrate my commitment to consistent growth and effective trading strategies.
-The link to the portfolio is below:
-
-[Trading Portfolio](https://www.myfxbook.com/portfolio/ode-adoga/8904175) 
-
-## Overview:  
-![](assest/2023-09-26_19-12-09.png)
-
-## Overwiew of a Payout Certificate from OFP_OverviewFX LTD : 
-![](assest/2023-10-04_00-42-30.png)
-
 
 ## A curated collection showcasing my expertise in data analytics. This portfolio encompasses diverse projects, highlighting my proficiency in data extraction, transformation, visualization, and deriving actionable insights to drive strategic decisions.
+
+
+
+# [Project 1: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+
+## Overview of the project ![](assest/udemy-workforce.jpg)
+
+### Key Components:
+- Data cleaning
+- Exploratory Data Analysis
+
+### Tools
+- Python (Jupyter Notebook)
+- Python Libraries used - pandas, seaborn, matplotlib.pyplot
+
+#### Overview:
+Delved into 20 analytics questions, uncovering insights that shaped my understanding;
+
+1. Display the Top 10 Rows of the Dataset
+2. Check the Last 5 Rows of the Dataset
+3. Find Shape of our dataset(Number of rows and Number of Columns)
+4. Getting information about our dataset like the total number of rows, the total number of columns, datatypes of each column, and memory Requirements
+5. Check Null values in the dataset
+6. Check for Duplicate data and drop them
+7. Find Out the number of courses per Subject
+8. For which levels, Udemy courses providing the courses
+9. Display the Count of paid and free courses
+10. Which courses has more lectures(free or paid)?
+11. Which Courses Have A Higher Number of Subscribers Free or Paid?
+12. Which Level Has The Highest Number of Subscribers?
+13. Find the Most Popular Course Title
+14. Display 10 Most Popular Courses As Per Number of Subscribers
+15. Find The Course Which Is Having The Highest Number of Reviews.
+16. Does Price Affect the Number of Reviews?
+17. Find the Total Number of Courses Related To Python
+18. Display 10 Most Popular Python Courses As Per Number of Subscribers
+19. In Which Year The Highest Number of Courses Were Posted?
+
+
+### Link to the Code Notebook
+[View here](udemy_courses_analysis.ipynb)
+
+
+
+
+
+
+
+# [Project 2: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+
+
+## Overview of the project ![](assest/1_QJe_yTA_C8J0UudBRGbYlg.png)
+
+### Overview:
+In today's data-driven world, the ability to clean and preprocess data efficiently is essential for extracting valuable insights and building accurate predictive models. In this guide, I will walk you through the process of data cleaning using Pandas, a powerful Python library for data manipulation and analysis. Whether you're a beginner looking to learn the basics or an experienced data scientist seeking advanced techniques, this guide has something for everyone.
+
+#### The dataset shall be cleaned through the following processes:
+
+1. Checking the number of columns.
+2. Changing misspelled column names to correct names.
+3. Checking for missing values.
+4. Checking for duplicate values.
+5. Checking for outliers.
+
+
+#### - Handling Missing Values:
+Identify and handle missing values in your dataset using techniques such as imputation, deletion, or interpolation. Pandas provides functions like isnull(), dropna(), and fillna() for this purpose.
+
+- python code
+  
+print(df.isnull().sum())  # Check for missing values
+df.dropna(inplace=True)  # Drop rows with missing values
+df['column'].fillna(df['column'].mean(), inplace=True)  # Impute missing values
+
+#### - Removing Duplicates:
+Identify and remove duplicate rows from your dataset using the drop_duplicates() function.
+
+- python code
+  
+df.drop_duplicates(inplace=True)  # Remove duplicate rows
+
+#### - Data Transformation and Feature Engineering:
+Perform data transformation and feature engineering to create new variables or modify existing ones based on domain knowledge or analytical requirements.
+
+- python code
+  
+df['new_column'] = df['old_column'].apply(lambda x: x * 2)  # Create a new column
+
+#### - Handling Outliers:
+Identify and handle outliers in your dataset using techniques such as winsorization or trimming.
+
+- python code
+  
+from scipy.stats import zscore
+df['z_score'] = zscore(df['numeric_column'])
+df = df[(df['z_score'] < 3) & (df['z_score'] > -3)]  # Remove outliers
+
+
+#### Conclusion:
+Data cleaning is a crucial step in the data analysis process, and Pandas provides powerful tools to handle various data cleaning tasks efficiently. By following the techniques outlined in this guide, you can prepare your data for further analysis and modeling with confidence. Experiment with different methods and explore advanced Pandas functionalities to tailor your data cleaning process to the specific requirements of your dataset.
+
+### Link to the Code Notebook
+[View here](cleaning_data_pandas.ipynb)
+
+
+
+# [Project 1: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
+
+![](assest/3024276_922742388_aa7cb42076.jpg)
+
+## Overview of the project
+
+#### Introduction:
+In this portfolio post, I will share insights from an exploratory data analysis (EDA) conducted on the Netflix dataset. This dataset contains information about TV shows and movies available on Netflix until 2021. By analyzing this dataset, we aim to gain insights into the content catalog, trends, and characteristics of Netflix's entertainment offerings.
+
+#### Dataset Description:
+The Netflix dataset comprises several features, including:
+
+- Title: The title of the TV show or movie.
+- Type: Indicates whether the entry is a movie or TV show.
+- Director: The director(s) of the content.
+- Cast: The cast members featured in the content.
+- Country: The country where the content was produced.
+- Release Year: The year of release.
+- Rating: The content rating (e.g., TV-MA, PG-13, etc.).
+- Duration: The duration of the content (in minutes for movies, in seasons for TV shows).
+- Listed in: Genres or categories the content is listed under.
+- Exploratory Data Analysis:
+
+#### Data Cleaning and Preprocessing:
+
+- Loaded the dataset and inspected its structure.
+- Checked for missing values and handled them appropriately.
+- Converted data types as needed.
+
+#### Understanding the Dataset:
+
+Explored the distribution of content types (movies vs. TV shows).
+Examined the distribution of release years to identify trends over time.
+Analyzed the top countries contributing to Netflix content.
+
+#### Content Analysis:
+
+- Show all the Records, where, "Category is Movie and Type is Comedies" or "Country is United Kingdom"
+- In how many movies/shows, Tom Cruise was cast?
+- What are the different Ratings defined by Netflix?
+- How many TV Show got the 'R' rating, after year 2018?
+- What is the maximum duration of a Movie/Show on Netflix?
+- Which individual country has the Highest No. of TV Shows?
+- And More in the notebook, link below
+
+#### Duration Analysis:
+Examined the distribution of movie durations.
+Investigated the distribution of TV show seasons.
+
+#### Visualizations:
+Created visualizations, including bar plots, pie charts, and histograms, to illustrate key findings.
+Used seaborn and matplotlib libraries for visualization.
+
+#### Insights and Observations:
+
+- The dataset primarily consists of movies, with a smaller proportion of TV shows.
+- Netflix has been consistently expanding its content library over the years, with a significant increase in content production observed in recent years.
+- The United States and India are among the top contributors to Netflix content.
+- Drama, Comedy, and Documentary are the most prevalent genres on Netflix.
+- Most movies have a duration of around 90-120 minutes, while TV shows typically have 1-2 seasons.
+
+#### Conclusion:
+
+Through this exploratory data analysis, we gained valuable insights into the Netflix content catalog, including trends, popular genres, and content characteristics. These insights can inform content creation strategies, audience targeting, and content recommendation algorithms, contributing to a better understanding of Netflix's position in the entertainment industry.
+
+### Link to the Code Notebook
+[View here](Netflix_Dataset_Analysis.ipynb)
+
 
 
 
