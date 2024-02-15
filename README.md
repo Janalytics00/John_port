@@ -76,7 +76,40 @@ Delved into 20 analytics questions, uncovering insights that shaped my understan
 18. Display 10 Most Popular Python Courses As Per Number of Subscribers
 19. In Which Year The Highest Number of Courses Were Posted?
 
+### Some interesting insights from the code
 
+#### Displaying the 10 most popular courses as per the number of subscribers
+
+```python
+top_10 = data.sort_values(by = "num_subscribers", ascending=False).head(20)
+sns.barplot(x="num_subscribers",y="course_title",data=top_10)
+```
+
+![](assest/download.png)
+
+
+#### Finding the courses that have the highest number of reviews
+
+```python
+data.columns
+Index(['course_id', 'course_title', 'url', 'is_paid', 'price',
+       'num_subscribers', 'num_reviews', 'num_lectures', 'level',
+       'content_duration', 'published_timestamp', 'subject'],
+      dtype='object')
+data[data['num_subscribers'].max()==data['num_reviews']]['subject'].head(5)
+Series([], Name: subject, dtype: category
+Categories (4, object): ['Business Finance', 'Graphic Design', 'Musical Instruments', 'Web Development'])
+data[data['num_reviews'].max()==data['num_reviews']]['subject'].head(5)
+3230    Web Development
+Name: subject, dtype: category
+Categories (4, object): ['Business Finance', 'Graphic Design', 'Musical Instruments', 'Web Development']
+plt.figure(figsize=(10,4))
+sns.barplot(x="subject",y="num_reviews", data=data)
+```
+![](assest/udemy course_image_2.png)
+
+> [!NOTE]
+> More Exploratory Analysis in the Notebook. 
 ### Link to the Code Notebook
 [View here](udemy_courses_analysis.ipynb)
 
