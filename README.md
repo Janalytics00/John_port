@@ -21,7 +21,7 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="37b74b22-31db-4388-a3b7-01b6419bdc6c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-Human Resource Management: HR for People Managers by the University of Minnesota on Coursera. Certificate earned on February 13, 2024
+### Human Resource Management: HR for People Managers by the University of Minnesota on Coursera. Certificate earned on February 13, 2024
 [View Here](https://coursera.org/share/19c04c6b788194f965970aad1f600e48)
 
 
