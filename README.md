@@ -10,6 +10,20 @@ My passion for data analytics and Human Resources is further amplified by a spec
 MICROSOFT OFFICE 365(WORD, POWERPOINT, ADVANCED EXCEL (POWER PIVOT, VLOOKUP)) GOOGLE SHEETS, GOOGLE SLIDES, PYTHON, SQL - DATABASE MANAGEMENT(BIG QUERY, MYSQL, POSTGRE, SSMS), R. 
 VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
+ [!NOTE]
+> Bagdes Obtained after completing certifications.
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fdd689cf-35f4-4dc3-ac77-a5435d559dcf" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c7e81e1c-e6e7-4b35-af6a-71b8394a04d5" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="37b74b22-31db-4388-a3b7-01b6419bdc6c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+
+
 - 🔭 I’m currently working on A lot of projects... 
 - 🌱 I’m currently learning German 
 
@@ -67,8 +81,93 @@ Delved into 20 analytics questions, uncovering insights that shaped my understan
 [View here](udemy_courses_analysis.ipynb)
 
 
+# [Project 2: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
+## Overview of the project ![](assest/HR analysis image.jpg)
 
+#### Introduction:
+Employee retention, therefore, stands as one of the most critical challenges organizations face. High attrition rates can lead to increased training and recruitment costs and a reduction in workforce stability.
+
+To address this challenge, I conducted an HR Analytics project intending to identify factors influencing employee attrition and job satisfaction. In this case study, I will present my findings and actionable recommendations.
+
+#### Problem Statement:
+_“As the HR department, we aim to analyze employee attrition within our organization to identify contributing factors and develop strategies to improve retention rates. This analysis will help us make data-driven decisions to foster a more engaged and satisfied workforce. We must identify the key factors contributing to employee attrition and develop effective strategies to enhance employee retention and job satisfaction. By doing so, we aim to create a thriving work environment that not only retains our valuable talent but also attracts new talent, positioning us as an employer of choice in the industry.”_
+
+#### What is Employee Attrition?
+Employee attrition happens when an employee leaves an organization, be it for voluntary or involuntary reasons and the replacement does not happen for a long period or sometimes never because let's face it two people can not give the same output. Attrition leads to a decrease in the size of an organization or department as the positions are not filled when the employees leave.
+Attrition can occur throughout an entire company or just in certain departments or divisions. This typically happens when automation or new technologies replace employees.
+
+#### Questions to Guide Analysis:
+- Are there specific departments or job roles experiencing higher attrition rates?
+- What demographic factors, such as age, gender, and education level, correlate with attrition?
+- Are there patterns in terms of work-related factors, such as overtime, distance from home, or total working years?
+- How do employee satisfaction and engagement relate to attrition?
+
+#### Deliverables:
+- Summary of the dataset
+- Documentation of cleaning and manipulation of the dataset
+- Summary of analysis
+- Supporting visuals and key findings
+- Recommendations based on analysis
+
+#### Overview
+Some interesting code/features worked with
+```python
+import pandas as pd
+import numpy as np
+HR = pd.read_csv('HR-Employee-Attrition.csv')
+HR.head(5)
+```
+
+#### Exploratory Data Analysis:
+Plotting a Correlation Map Between all the Numerical Value
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Calculating correlation matrix for all numeric variables
+numerical_cols = HR.select_dtypes(include=['int64', 'float64']).columns.tolist()
+corr_matrix_all = HR[numerical_cols].corr()
+
+# Plotting the correlation matrix for all numeric variables
+plt.figure(figsize=(15, 10))
+sns.heatmap(corr_matrix_all, annot=True, fmt='.2f', cmap='coolwarm')
+plt.title('Correlation Matrix for All Numeric Variables')
+plt.show()
+```
+![](assest/HR analysis image.jpg)
+
+#### Insights:
+Total working years and job level have a positive correlation with the attrition rate, which means that employees with more experience and higher job levels are much more likely to leave the organization as they have better job opportunities and higher salaries than the less experienced ones.
+Monthly rate and salary hike percentage have a less or negative relationship with attrition as employees who are paid well and given a good salary hike are much less likely to leave the organization.
+Job involvement and job satisfaction are highly correlated showing that employees who are involved in their job are satisfied with the job.
+The job level is also correlated with the Monthly rate, the number of companies worked, and years at the company, suggesting that higher-level employees are more likely to earn higher salaries, have worked at more companies in the past, and have been with the company for longer.
+
+ [!NOTE]
+> More Exploratory Analysis in the Notebook. 
+
+#### Link to the Code Notebook
+[View here](HR_Analysis (1).ipynb)
+
+#### Recommendations:
+Based on our analysis, we propose the following recommendations:
+
+1. Overtime Management:
+Implement measures to manage overtime and ensure employees do not become overburdened. Consider providing flexible work options or additional support for those working overtime.
+
+2. Marital Status Awareness:
+Understand the needs and concerns of single employees and address factors that may contribute to higher attrition in this group. This could involve offering more inclusive benefits or programs.
+
+3. Education and Training:
+Focus on offering opportunities for further education and skill development, especially for employees with lower education levels. This can improve job satisfaction and retention.
+
+4. Commute-Friendly Policies:
+Consider policies or benefits to support employees with long commutes, such as remote work options or transportation assistance.
+
+#### Conclusion:
+In conclusion, our HR Analytics project uncovered key insights into the factors affecting employee attrition and job satisfaction. With this knowledge, organizations can take proactive measures to enhance employee engagement, reduce turnover, and create a more satisfying work environment.
+
+By implementing the recommended strategies, organizations can foster a positive workplace culture, leading to increased employee retention and ultimately improving overall business performance.
 
 
 
@@ -78,7 +177,7 @@ Delved into 20 analytics questions, uncovering insights that shaped my understan
 ## Overview of the project ![](assest/1_QJe_yTA_C8J0UudBRGbYlg.png)
 
 ### Overview:
-In today's data-driven world, the ability to clean and preprocess data efficiently is essential for extracting valuable insights and building accurate predictive models. In this guide, I will walk you through the process of data cleaning using Pandas, a powerful Python library for data manipulation and analysis. Whether you're a beginner looking to learn the basics or an experienced data scientist seeking advanced techniques, this guide has something for everyone.
+In today's data-driven world, the ability to clean and preprocess data efficiently is essential for extracting valuable insights and building accurate predictive models. In this guide, I will walk you through data cleaning using Pandas, a powerful Python library for data manipulation and analysis. Whether you're a beginner looking to learn the basics or an experienced data scientist seeking advanced techniques, this guide has something for everyone.
 
 #### The dataset shall be cleaned through the following processes:
 
@@ -130,7 +229,7 @@ Data cleaning is a crucial step in the data analysis process, and Pandas provide
 
 
 
-# [Project 1: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
+# [Project 3: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
 
 ![](assest/3024276_922742388_aa7cb42076.jpg)
 
@@ -201,7 +300,7 @@ Through this exploratory data analysis, we gained valuable insights into the Net
 
 
 
-# [Project 1: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 4: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 Overview:
 Undertook a comprehensive survey project for Exodus Cinemas aimed at gathering customer feedback regarding the popcorn served at the venue. The primary objective was to understand customer preferences, identify areas of improvement, and align the popcorn quality and variety with audience expectations.
@@ -217,7 +316,7 @@ Recommendations: Based on the analysis, provide actionable recommendations to en
 
 
 
-# [Project 2: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
+# [Project 5: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
 
 Overview:
 Recently, I embarked on an intricate data analysis project upon a request from Sales Manager Steve.
@@ -262,7 +361,7 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 
 
 
-# [Project 3: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
+# [Project 6: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
 
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
@@ -271,7 +370,7 @@ Designed and developed an interactive sales dashboard focused on Adidas US marke
 
 
 
-# [Project 4: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
+# [Project 7: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
 
 
 🚴‍♂️ Exciting Project Alert! 📊
@@ -289,7 +388,7 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 
 
 
-# [Project 5: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
+# [Project 8: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
 
 Overview:
 I Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
