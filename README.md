@@ -207,7 +207,7 @@ By implementing the recommended strategies, organizations can foster a positive 
 
 
 
-# [Project 2: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 3: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 
 ## Overview of the project ![](assest/1_QJe_yTA_C8J0UudBRGbYlg.png)
@@ -265,7 +265,7 @@ Data cleaning is a crucial step in the data analysis process, and Pandas provide
 
 
 
-# [Project 3: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
+# [Project 4: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
 
 ![](assest/3024276_922742388_aa7cb42076.jpg)
 
@@ -336,7 +336,7 @@ Through this exploratory data analysis, we gained valuable insights into the Net
 
 
 
-# [Project 4: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 5: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 Overview:
 Undertook a comprehensive survey project for Exodus Cinemas aimed at gathering customer feedback regarding the popcorn served at the venue. The primary objective was to understand customer preferences, identify areas of improvement, and align the popcorn quality and variety with audience expectations.
@@ -352,7 +352,7 @@ Recommendations: Based on the analysis, provide actionable recommendations to en
 
 
 
-# [Project 5: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
+# [Project 6: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
 
 Overview:
 Recently, I embarked on an intricate data analysis project upon a request from Sales Manager Steve.
@@ -397,7 +397,7 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 
 
 
-# [Project 6: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
+# [Project 7: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
 
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
@@ -406,7 +406,7 @@ Designed and developed an interactive sales dashboard focused on Adidas US marke
 
 
 
-# [Project 7: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
+# [Project 8: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
 
 
 🚴‍♂️ Exciting Project Alert! 📊
