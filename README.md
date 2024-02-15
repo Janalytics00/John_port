@@ -10,7 +10,7 @@ My passion for data analytics and Human Resources is further amplified by a spec
 MICROSOFT OFFICE 365(WORD, POWERPOINT, ADVANCED EXCEL (POWER PIVOT, VLOOKUP)) GOOGLE SHEETS, GOOGLE SLIDES, PYTHON, SQL - DATABASE MANAGEMENT(BIG QUERY, MYSQL, POSTGRE, SSMS), R. 
 VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
- [!NOTE]
+> [!NOTE]
 > Bagdes Obtained after completing certifications.
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fdd689cf-35f4-4dc3-ac77-a5435d559dcf" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
@@ -135,7 +135,7 @@ sns.heatmap(corr_matrix_all, annot=True, fmt='.2f', cmap='coolwarm')
 plt.title('Correlation Matrix for All Numeric Variables')
 plt.show()
 ```
-![](assest/HR analysis image.jpg)
+![](assest/download_hr_analysis_image.png)
 
 #### Insights:
 Total working years and job level have a positive correlation with the attrition rate, which means that employees with more experience and higher job levels are much more likely to leave the organization as they have better job opportunities and higher salaries than the less experienced ones.
@@ -143,7 +143,7 @@ Monthly rate and salary hike percentage have a less or negative relationship wit
 Job involvement and job satisfaction are highly correlated showing that employees who are involved in their job are satisfied with the job.
 The job level is also correlated with the Monthly rate, the number of companies worked, and years at the company, suggesting that higher-level employees are more likely to earn higher salaries, have worked at more companies in the past, and have been with the company for longer.
 
- [!NOTE]
+> [!NOTE]
 > More Exploratory Analysis in the Notebook. 
 
 #### Link to the Code Notebook
