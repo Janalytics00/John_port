@@ -43,8 +43,54 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 ## A curated collection showcasing my expertise in data analytics. This portfolio encompasses diverse projects, highlighting my proficiency in data extraction, transformation, visualization, and deriving actionable insights to drive strategic decisions.
 
 
+# [Project 1: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
 
-# [Project 1: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+<iframe title="HR_Employee_report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDA2N2RiMDktZTgyMi00MmNmLWFiNDMtNGVmNDQ2Zjc1OWVhIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+### Data Used
+
+#### Data - HR Data with over 22000 rows from 2000 to 2020.
+
+#### Data Cleaning & Analysis - MySQL Workbench
+
+#### Data Visualization - PowerBI
+
+### Questions
+
+1. What is the gender breakdown of employees in the company?
+2. What is the company's race/ethnicity breakdown of employees?
+3. What is the age distribution of employees in the company?
+4. How many employees work at headquarters versus remote locations?
+5. What is the average length of employment for employees who have been terminated?
+6. How does the gender distribution vary across departments and job titles?
+7. What is the distribution of job titles across the company?
+8. Which department has the highest turnover rate?
+9. What is the distribution of employees across locations by state?
+10. How has the company's employee count changed based on hire and term dates?
+11. What is the tenure distribution for each department?
+
+### Summary of Findings
+
+- There are more male employees
+- White race is the most dominant while Native Hawaiian and American Indians are the least dominant.
+- The youngest employee is 20 years old and the oldest is 57 years old
+- 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 25-34 followed by 35-44 while the smallest group was 55-64.
+- A large number of employees work at the headquarters versus remotely.
+- The average length of employment for terminated employees is around 7 years.
+- The gender distribution across departments is fairly balanced but there are generally more male than female employees.
+- The Marketing department has the highest turnover rate followed by Training. The lowest turnover rate are in the Research and development, Support, and Legal departments.
+- A large number of employees come from the state of Ohio.
+- The net change in employees has increased over the years.
+- The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales, and Marketing having the lowest.
+
+### Limitations
+
+Some records had negative ages and these were excluded during querying(967 records). The ages used were 18 years and above.
+Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+
+
+
+# [Project 2: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 ## Overview of the project ![](assest/udemy-workforce.jpg)
 
@@ -117,7 +163,7 @@ sns.barplot(x="subject",y="num_reviews", data=data)
 [View here](udemy_courses_analysis.ipynb)
 
 
-# [Project 2: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 3: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 ## Overview of the project ![](assest/HR analysis image.jpg)
 
@@ -207,7 +253,7 @@ By implementing the recommended strategies, organizations can foster a positive 
 
 
 
-# [Project 3: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 4: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 
 ## Overview of the project ![](assest/1_QJe_yTA_C8J0UudBRGbYlg.png)
@@ -265,7 +311,7 @@ Data cleaning is a crucial step in the data analysis process, and Pandas provide
 
 
 
-# [Project 4: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
+# [Project 5: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
 
 ![](assest/3024276_922742388_aa7cb42076.jpg)
 
@@ -336,7 +382,7 @@ Through this exploratory data analysis, we gained valuable insights into the Net
 
 
 
-# [Project 5: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 6: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 Overview:
 Undertook a comprehensive survey project for Exodus Cinemas aimed at gathering customer feedback regarding the popcorn served at the venue. The primary objective was to understand customer preferences, identify areas of improvement, and align the popcorn quality and variety with audience expectations.
@@ -397,7 +443,7 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 
 
 
-# [Project 7: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
+# [Project 6: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
 
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
