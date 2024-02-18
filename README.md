@@ -45,7 +45,9 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 # [Project 1: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
 
-<iframe title="HR_Employee_report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDA2N2RiMDktZTgyMi00MmNmLWFiNDMtNGVmNDQ2Zjc1OWVhIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
+## Overview of the project ![](assest/2024-02-18_01-00-19.png)
+
+## Overview of the project ![](assest/2024-02-18_01-00-52.png)
 
 ### Data Used
 
@@ -88,6 +90,7 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 Some records had negative ages and these were excluded during querying(967 records). The ages used were 18 years and above.
 Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
 
+<iframe title="HR_Employee_report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDA2N2RiMDktZTgyMi00MmNmLWFiNDMtNGVmNDQ2Zjc1OWVhIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
 # [Project 2: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
