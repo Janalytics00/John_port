@@ -60,51 +60,19 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 ### Questions
 
 1. What is the gender breakdown of employees in the company?
-2. What is the company's race/ethnicity breakdown of employees?
-3. What is the age distribution of employees in the company?
-
 ```sql
-SELECT 
-	MIN(age) AS youngest,
-    MAX(age) AS oldest
+SELECT gender, count(*) AS count_of_employees
 FROM HR
-WHERE age>= 18 AND termdate = '0000-00-00';
-
-SELECT 
-	CASE 
-		WHEN age BETWEEN 18 AND 24 THEN '18-24'
-        WHEN age BETWEEN 25 AND 34 THEN '25-34'
-        WHEN age BETWEEN 35 AND 44 THEN '35-44'
-        WHEN age BETWEEN 45 AND 54 THEN '45-54'
-        WHEN age BETWEEN 55 AND 64 THEN '55-64'
-        ELSE '65+'
-	END AS age_group,
-    COUNT(*) AS count
-FROM HR
-WHERE age >= 18 AND termdate = '0000-00-00'
-GROUP BY age_group
-ORDER BY age_group;
-
-SELECT 
-	CASE 
-		WHEN age BETWEEN 18 AND 24 THEN '18-24'
-        WHEN age BETWEEN 25 AND 34 THEN '25-34'
-        WHEN age BETWEEN 35 AND 44 THEN '35-44'
-        WHEN age BETWEEN 45 AND 54 THEN '45-54'
-        WHEN age BETWEEN 55 AND 64 THEN '55-64'
-        ELSE '65+'
-	END AS age_group, gender,
-    COUNT(*) AS count 
-FROM HR
-WHERE age >= 18 AND termdate = '0000-00-00'
-GROUP BY age_group, gender
-ORDER BY age_group, gender;
+WHERE age>= 18 AND termdate = '0000-00-00'
+GROUP BY gender;
 ```
+3. What is the company's race/ethnicity breakdown of employees?
+4. What is the age distribution of employees in the company?
 ![](assest/2024-02-18_13-40-15.png)
 
-4. How many employees work at headquarters versus remote locations?
 5. How many employees work at headquarters versus remote locations?
-6. What is the average length of employment for employees who have been terminated?
+6. How many employees work at headquarters versus remote locations?
+7. What is the average length of employment for employees who have been terminated?
 ```sql
 SELECT department, gender, count(*) AS count
 FROM HR
