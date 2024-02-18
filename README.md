@@ -62,14 +62,72 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 1. What is the gender breakdown of employees in the company?
 2. What is the company's race/ethnicity breakdown of employees?
 3. What is the age distribution of employees in the company?
-4. How many employees work at headquarters versus remote locations?
-5. What is the average length of employment for employees who have been terminated?
-6. How does the gender distribution vary across departments and job titles?
-7. What is the distribution of job titles across the company?
-8. Which department has the highest turnover rate?
-9. What is the distribution of employees across locations by state?
-10. How has the company's employee count changed based on hire and term dates?
-11. What is the tenure distribution for each department?
+```sql
+SELECT 
+	MIN(age) AS youngest,
+    MAX(age) AS oldest
+FROM HR
+WHERE age>= 18 AND termdate = '0000-00-00';
+
+SELECT 
+	CASE 
+		WHEN age BETWEEN 18 AND 24 THEN '18-24'
+        WHEN age BETWEEN 25 AND 34 THEN '25-34'
+        WHEN age BETWEEN 35 AND 44 THEN '35-44'
+        WHEN age BETWEEN 45 AND 54 THEN '45-54'
+        WHEN age BETWEEN 55 AND 64 THEN '55-64'
+        ELSE '65+'
+	END AS age_group,
+    COUNT(*) AS count
+FROM HR
+WHERE age >= 18 AND termdate = '0000-00-00'
+GROUP BY age_group
+ORDER BY age_group;
+
+SELECT 
+	CASE 
+		WHEN age BETWEEN 18 AND 24 THEN '18-24'
+        WHEN age BETWEEN 25 AND 34 THEN '25-34'
+        WHEN age BETWEEN 35 AND 44 THEN '35-44'
+        WHEN age BETWEEN 45 AND 54 THEN '45-54'
+        WHEN age BETWEEN 55 AND 64 THEN '55-64'
+        ELSE '65+'
+	END AS age_group, gender,
+    COUNT(*) AS count 
+FROM HR
+WHERE age >= 18 AND termdate = '0000-00-00'
+GROUP BY age_group, gender
+ORDER BY age_group, gender;
+```
+![](assest/2024-02-18_13-40-15.png)
+
+5. How many employees work at headquarters versus remote locations?
+6. What is the average length of employment for employees who have been terminated?
+```sql
+SELECT department, gender, count(*) AS count
+FROM HR
+WHERE age >= 18 AND termdate = '0000-00-00'
+GROUP BY department, gender
+ORDER BY department;
+```
+![](assest/2024-02-18_13-41-47.png)
+
+8. How does the gender distribution vary across departments and job titles?
+9. What is the distribution of job titles across the company?
+10. Which department has the highest turnover rate?
+11. What is the distribution of employees across locations by state?
+
+```sql
+SELECT location_state, count(*) AS count
+FROM HR
+WHERE age >= 18 AND termdate = '0000-00-00'
+GROUP BY location_state
+ORDER BY count DESC;
+```
+![](assest/2024-02-18_13-40-58.png)
+
+11. How has the company's employee count changed based on hire and term dates?
+12. What is the tenure distribution for each department?
 
 ### Summary of Findings
 
@@ -89,6 +147,14 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 Some records had negative ages and these were excluded during querying(967 records). The ages used were 18 years and above.
 Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+
+### Link to the Code Notebook
+[View here](assest/SQL_POWER_BI_Project.sql)
+
+### Link to the csv file
+[View here](assest/Human Resources.csv)
+
+
 
 <iframe title="HR_Employee_report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDA2N2RiMDktZTgyMi00MmNmLWFiNDMtNGVmNDQ2Zjc1OWVhIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
