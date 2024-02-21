@@ -129,7 +129,96 @@ Some termdates were far into the future and were not included in the analysis(15
 <iframe title="HR_Employee_report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDA2N2RiMDktZTgyMi00MmNmLWFiNDMtNGVmNDQ2Zjc1OWVhIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
-# [Project 2: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 2: Nutrition Facts for McDonald's Menu Analysis](https://janalytics00.github.io/John_port/Nutrition-Facts-for-McDonald's-Menu-Analysis)
+
+## Overview of the project ![](assest/mcdonaldos menu.jpg)
+
+### Nutrition Facts for McDonald's Menu 
+Calories, fat, and sugar for every cheeseburger, fries, and milkshake on the menu
+#### About Dataset
+
+### Content
+This dataset provides a nutrition analysis of every menu item on the US McDonald's menu, including breakfast, beef burgers, chicken and fish sandwiches, fries, salads, soda, coffee and tea, milkshakes, and desserts.
+
+#### Acknowledgments
+The menu items and nutrition facts were scraped from the McDonald's website.
+
+### Dataset
+[View here]([assest/mcdonalds-db.ipynb](https://www.kaggle.com/datasets/mcdonalds/nutrition-facts))
+
+#### Inspiration
+How many calories does the average McDonald's value meal contain? How much do beverages, like soda or coffee, contribute to the overall caloric intake? Does ordered grilled chicken instead of crispy increase a sandwich's nutritional value? What about ordering egg whites instead of whole eggs? What is the least number of items could you order from the menu to meet one day's nutritional requirements?
+
+### Insights from the dataset
+Which Food item has the maximum sodium content?
+
+1. The main source of sodium is Table salt
+2. The average American eats 5 teaspoons/day. This is about 20x as much as the body needs
+3. Sodium mostly added during preparation
+4. Foods that don't taste salty may be high in Sodium, large amounts can be hidden in canned, processed, and convenient foods.
+5. Sodium controls fluids balance in our bodies and maintains blood volume and blood pressure
+6. Too much sodium may raise blood pressure and cause fluid retention, which would lead to swelling of the legs and feet or other health issues
+7. Target less than 2,000 milligrams of Sodium per day
+
+```sql
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+import sqlite3
+data = pd.read_csv('/kaggle/input/nutrition-facts/menu.csv')
+conn = sqlite3.connect('McDonalds.db')
+data.to_sql('MCDONALDS_NUTRITION', conn)
+
+# using pandas
+df = pd.read_sql('SELECT * FROM MCDONALDS_NUTRITION', conn)
+df
+```
+
+```sql
+import matplotlib.pyplot as plt
+%matplotlib inline
+import seaborn as sns
+
+## categorical scatterplots
+plot = sns.swarmplot(x='Category', y='Sodium', data=df)
+plt.setp(plot.get_xticklabels(), rotation=70)
+plt.title('Sodium content')
+plt.show()
+```
+![](assest/mcdonaldos sodium content.png)
+
+### Creating a scatterplot to find the relationship between Protein and Total Fat
+```sql
+plot = sns.jointplot(x="Protein", y='Total Fat', data=df)
+plot.show()
+```
+![](assest/mcdonaldos protein content.png)
+
+### Viz data using Box plots, Box plots indicated the distribution of one or more variables
+```sql
+plot = sns.set_style("whitegrid")
+ax = sns.boxplot(x=df["Sugars"])
+plot.show()
+```
+![](assest/mcdonaldos sugar content.png)
+
+### Conclusions
+- Notice a few outliers that indicate food items with extreme values of Sugar
+- Food items in the dataset have sugar content of around 128g
+- Candies may be among these high-sugar-content food items on the menu
+
+### Link to the notebook
+[View here](assest/mcdonalds-db.ipynb)
+
+
+
+
+# [Project 3: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 ## Overview of the project ![](assest/udemy-workforce.jpg)
 
@@ -202,7 +291,7 @@ sns.barplot(x="subject",y="num_reviews", data=data)
 [View here](udemy_courses_analysis.ipynb)
 
 
-# [Project 3: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 4: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 ## Overview of the project ![](assest/HR analysis image.jpg)
 
@@ -292,7 +381,7 @@ By implementing the recommended strategies, organizations can foster a positive 
 
 
 
-# [Project 4: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 5: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 
 ## Overview of the project ![](assest/1_QJe_yTA_C8J0UudBRGbYlg.png)
@@ -350,7 +439,7 @@ Data cleaning is a crucial step in the data analysis process, and Pandas provide
 
 
 
-# [Project 5: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
+# [Project 6: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
 
 ![](assest/3024276_922742388_aa7cb42076.jpg)
 
@@ -421,7 +510,7 @@ Through this exploratory data analysis, we gained valuable insights into the Net
 
 
 
-# [Project 6: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 7: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 Overview:
 Undertook a comprehensive survey project for Exodus Cinemas aimed at gathering customer feedback regarding the popcorn served at the venue. The primary objective was to understand customer preferences, identify areas of improvement, and align the popcorn quality and variety with audience expectations.
@@ -437,7 +526,7 @@ Recommendations: Based on the analysis, provide actionable recommendations to en
 
 
 
-# [Project 6: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
+# [Project 8: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
 
 Overview:
 Recently, I embarked on an intricate data analysis project upon a request from Sales Manager Steve.
@@ -482,7 +571,7 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 
 
 
-# [Project 6: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
+# [Project 9: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
 
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
@@ -491,7 +580,7 @@ Designed and developed an interactive sales dashboard focused on Adidas US marke
 
 
 
-# [Project 8: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
+# [Project 10: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
 
 
 🚴‍♂️ Exciting Project Alert! 📊
@@ -509,7 +598,7 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 
 
 
-# [Project 8: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
+# [Project 11: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
 
 Overview:
 I Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
@@ -520,7 +609,7 @@ I Engaged in a comprehensive data cleaning initiative utilizing both Excel and G
 
 
 
-# [Project 6: South American Sales Dashboard (2021-2022)](https://janalytics00.github.io/John_port/South-American-Sales-Dashboard-2021-2022)
+# [Project 12: South American Sales Dashboard (2021-2022)](https://janalytics00.github.io/John_port/South-American-Sales-Dashboard-2021-2022)
 
 This dashboard offers a dynamic visual representation of sales trends in South America. Crafted with meticulous attention to detail, it boasts interactive elements, hyperlinks for in-depth external resources, and internal navigational links to enhance user experience.
 
@@ -541,7 +630,7 @@ Below is the LinkedIn embed!
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112885235129708544?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
-# [Project 7: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
+# [Project 13: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
 
 I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynamic Power BI Dashboard. Key features:
 
@@ -558,7 +647,7 @@ I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynami
  
  
 
-# [Project 8: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
+# [Project 14: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
 
 ## In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
 
