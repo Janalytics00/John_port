@@ -43,7 +43,65 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 ## A curated collection showcasing my expertise in data analytics. This portfolio encompasses diverse projects, highlighting my proficiency in data extraction, transformation, visualization, and deriving actionable insights to drive strategic decisions.
 
 
-# [Project 1: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
+
+# [Project 1: IBM HR Analytics Employee Attrition & Performance](https://janalytics00.github.io/John_port/IBM-HR-Analytics-Employee Attrition-&-Performance)
+
+### Overview of the project ![](assest/2024-02-29_04-17-24.png)
+
+### Context 
+This is a fictional data set created by IBM data scientists.
+
+### KPIs
+Gained insights into the dataset using the following KPI from the data
+- Employees by Age
+- Employees by Gender
+- Employees by Hourly rate
+- Employees by Job role
+- Employees by Department
+- Employees by the Educational field
+- Employees by Business travel
+
+### Link to the data file
+[View here](assest/IBM data.csv)
+
+
+<iframe title="IBM HR Analysis" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOTI1NjI3ZmQtMzA0Zi00M2FmLTg1MDUtNTNlMGM1ZTI0ZWFkIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+
+
+
+# [Project 2: Hollywood Most Profitable Stories](https://janalytics00.github.io/John_port/Hollywood-Most-Profitable-Stories)
+
+### Context
+Movies are one of the biggest industries in the world. In this dataset, there are over 74 movies from 2007 and 2012. People can take this data and see what genre or what year movies make the most.
+
+### Overview of the project ![](assest/2024-02-29_02-26-24.png)
+
+### KPIs
+- Profitability by Lead Studio
+- Profitability by Genre
+- Total film by Genre
+- Total film by Lead Studio
+- Total film by Year
+- Audience score % - Rotten tomatoes %
+- Worldwide Gross - Rotten tomatoes %
+
+### Content
+There are titles, genres, studios, different profitability, ratings, and year for movies released from 2007-2012.
+
+### Acknowledgments
+Thanks to information is beautiful.net for providing the dataset.
+
+### Dataset
+[View here](https://www.kaggle.com/datasets/mcdonalds/nutrition-facts))
+
+
+<iframe title="Hollywood Most Profitable Stories" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjU1NzE0YzUtOWZiMy00OTNhLWEwYmEtOTliNjM1ZTRmMmYyIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+
+
+
+# [Project 3: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
 
 ## Overview of the project ![](assest/2024-02-18_01-00-19.png)
 
