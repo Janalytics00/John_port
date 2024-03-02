@@ -44,7 +44,87 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 
 
 
-# [Project 1: IBM HR Analytics Employee Attrition & Performance](https://janalytics00.github.io/John_port/IBM-HR-Analytics-Employee Attrition-&-Performance)
+# [Project 1: Google Play Store Business Problem Statement](https://janalytics00.github.io/John_port/Google-play-store-Business-Problem-Statement)
+
+### Business Problem Statement:
+The goal is to analyze the Google Play Store Apps dataset to derive insights into the app market. We aim to understand the factors that contribute to an app's success, including its user ratings, reviews, and category. We want to explore user sentiments towards apps by analyzing the user reviews dataset. Additionally, we can see insights into the popularity of app categories based on the total number of installs and the sentiment polarity of user reviews. The ultimate objective is to provide recommendations for app developers to enhance their app's performance and user satisfaction.
+
+### Overview of the project ![](assest/2024-03-02_01-43-46.png)
+
+### Overview of dataset:
+ Provide the overview of dataset by how many total unique apps and categories are in our dataset.
+```sql
+-- how many total unique apps and categories in our dataset.
+SELECT 
+	COUNT(DISTINCT App) AS total_apps,
+	COUNT(DISTINCT Category) AS total_categories
+FROM dbo.googleplaystore
+```
+![](assest/2024-03-02_01-56-37.png)
+
+Explore App Categories and Counts:
+ Retrieve the unique app categories and the count of apps in each category.
+```sql
+-- Retrieve the unique app categories and the count of apps in each category.
+SELECT TOP 5
+	Category,
+	COUNT(App) AS Total_app
+FROM dbo.googleplaystore
+GROUP BY  Category
+ORDER BY Total_app DESC
+```
+![](assest/2024-03-02_01-57-10.png)
+
+Top-rated Free Apps:
+ Identify the top-rated free apps.
+```sql
+-- Identify the top-rated free apps.
+SELECT TOP 10
+App,
+Category,
+Rating,
+Reviews
+FROM dbo.googleplaystore
+WHERE Type = 'Free' AND Rating <> 'NaN'
+ORDER BY Rating DESC
+```
+![](assest/2024-03-02_01-57-43.png)
+
+Most Reviewed Apps:
+ Find the apps with the highest number of reviews.
+```sql
+-- Find the apps with the highest number of reviews.
+SELECT TOP 20
+Category,
+App,
+Reviews
+FROM dbo.googleplaystore
+ORDER BY Reviews DESC
+```
+![](assest/2024-03-02_01-58-17.png)
+
+Average Rating by Category:
+ Calculate the average rating for each app category.
+Top Categories by Number of Installs:
+ Identify the app categories with the highest total number of installs.
+```sql
+-- Identify the app categories with the highest total number of installs.
+SELECT TOP 10
+Category,
+SUM(CAST(REPLACE(SUBSTRING(Installs, 1, PATINDEX('%[^0-9]%', installs + ' ') - 1), ',', ' ') AS INT)) as total_installs
+FROM dbo.googleplaystore
+GROUP BY Category
+ORDER BY total_installs DESC
+```
+![](assest/2024-03-02_02-00-12.png)
+
+Average Sentiment Polarity by App Category:
+ Analyze the average sentiment polarity of user reviews for each app category.
+
+<iframe title="Google play store" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzRiZDQwYmItNzRiZC00NDkzLWJkMGEtOTJiOTcxMzk4ZWNlIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+
+# [Project 2: IBM HR Analytics Employee Attrition & Performance](https://janalytics00.github.io/John_port/IBM-HR-Analytics-Employee Attrition-&-Performance)
 
 ### Overview of the project ![](assest/2024-02-29_04-17-24.png)
 
@@ -70,7 +150,7 @@ Gained insights into the dataset using the following KPI from the data
 
 
 
-# [Project 2: Hollywood Most Profitable Stories](https://janalytics00.github.io/John_port/Hollywood-Most-Profitable-Stories)
+# [Project 3: Hollywood Most Profitable Stories](https://janalytics00.github.io/John_port/Hollywood-Most-Profitable-Stories)
 
 ### Context
 Movies are one of the biggest industries in the world. In this dataset, there are over 74 movies from 2007 and 2012. People can take this data and see what genre or what year movies make the most.
@@ -101,7 +181,7 @@ Thanks to information is beautiful.net for providing the dataset.
 
 
 
-# [Project 3: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
+# [Project 4: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
 
 ## Overview of the project ![](assest/2024-02-18_01-00-19.png)
 
@@ -187,7 +267,7 @@ Some termdates were far into the future and were not included in the analysis(15
 <iframe title="HR_Employee_report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDA2N2RiMDktZTgyMi00MmNmLWFiNDMtNGVmNDQ2Zjc1OWVhIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
-# [Project 2: Nutrition Facts for McDonald's Menu Analysis](https://janalytics00.github.io/John_port/Nutrition-Facts-for-McDonald's-Menu-Analysis)
+# [Project 5: Nutrition Facts for McDonald's Menu Analysis](https://janalytics00.github.io/John_port/Nutrition-Facts-for-McDonald's-Menu-Analysis)
 
 ## Overview of the project ![](assest/mcdonaldos menu.jpg)
 
@@ -276,7 +356,7 @@ plot.show()
 
 
 
-# [Project 3: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 6: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 ## Overview of the project ![](assest/udemy-workforce.jpg)
 
@@ -349,7 +429,7 @@ sns.barplot(x="subject",y="num_reviews", data=data)
 [View here](udemy_courses_analysis.ipynb)
 
 
-# [Project 4: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 7: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 ## Overview of the project ![](assest/HR analysis image.jpg)
 
@@ -439,7 +519,7 @@ By implementing the recommended strategies, organizations can foster a positive 
 
 
 
-# [Project 5: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 8: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 
 ## Overview of the project ![](assest/1_QJe_yTA_C8J0UudBRGbYlg.png)
@@ -497,7 +577,7 @@ Data cleaning is a crucial step in the data analysis process, and Pandas provide
 
 
 
-# [Project 6: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
+# [Project 9: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
 
 ![](assest/3024276_922742388_aa7cb42076.jpg)
 
@@ -568,7 +648,7 @@ Through this exploratory data analysis, we gained valuable insights into the Net
 
 
 
-# [Project 7: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 10: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 Overview:
 Undertook a comprehensive survey project for Exodus Cinemas aimed at gathering customer feedback regarding the popcorn served at the venue. The primary objective was to understand customer preferences, identify areas of improvement, and align the popcorn quality and variety with audience expectations.
@@ -584,7 +664,7 @@ Recommendations: Based on the analysis, provide actionable recommendations to en
 
 
 
-# [Project 8: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
+# [Project 11: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
 
 Overview:
 Recently, I embarked on an intricate data analysis project upon a request from Sales Manager Steve.
@@ -629,7 +709,7 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 
 
 
-# [Project 9: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
+# [Project 12: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
 
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
@@ -638,7 +718,7 @@ Designed and developed an interactive sales dashboard focused on Adidas US marke
 
 
 
-# [Project 10: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
+# [Project 13: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
 
 
 🚴‍♂️ Exciting Project Alert! 📊
@@ -656,7 +736,7 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 
 
 
-# [Project 11: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
+# [Project 14: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
 
 Overview:
 I Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
@@ -688,7 +768,7 @@ Below is the LinkedIn embed!
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112885235129708544?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
-# [Project 13: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
+# [Project 15: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
 
 I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynamic Power BI Dashboard. Key features:
 
@@ -705,7 +785,7 @@ I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynami
  
  
 
-# [Project 14: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
+# [Project 16: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
 
 ## In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
 
