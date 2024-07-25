@@ -46,8 +46,77 @@ VISUALIZATION TOOLS - GOOGLE LOCKER STUDIO, POWER BI, TABLEAU
 ## A curated collection showcasing my expertise in data analytics. This portfolio encompasses diverse projects, highlighting my proficiency in data extraction, transformation, visualization, and deriving actionable insights to drive strategic decisions.
 
 
+# [Project 1: Bank Customer Churn Prediction](https://janalytics00.github.io/John_port/Bank-Customer-Churn-Prediction)
 
-# [Project 1: Google Play Store Business Problem Statement](https://janalytics00.github.io/John_port/Google-play-store-Business-Problem-Statement)
+### Overview 
+![](assest/1_47xx1oXuebvYwZeB0OutuA.png)
+
+In the banking industry, it is important to predict and understand when customers might decide to end their relationship with the bank, known as customer churn. When customers leave, it can lead to financial losses and impact the bank's reputation. By identifying customers who are likely to churn, the bank can proactively take measures to retain them and minimize revenue loss. Therefore, the goal of this project is to develop a system that can accurately predict customer churn to take proactive steps to retain these customers.
+
+### Data
+The data used in this project is from Kaggle
+[View here](assest/Bank Customer Churn Prediction Using ML/Churn_Modelling.csv)
+
+### Data Exploration and Cleaning
+Checking for Null Values in the dataset
+```python
+data.isnull().sum()
+
+```
+
+### Modelling
+
+Different models were evaluated and the best-performing model was picked to be the final model. Precision was used as the main evaluation metric to avoid wasting resources on customers who would not have churned. The Random Forest Classifier was picked as the final model, with its parameters being the best parameters found through grid search.
+
+``` python
+final_data = pd.DataFrame({'Models':['LR','SVC','KNN','DT','RT','GBC'],
+                           'ACC':[accuracy_score(y_test, y_predl),
+                                 accuracy_score(y_test, y_pred2),
+                                 accuracy_score(y_test, y_pred3),
+                                 accuracy_score(y_test, y_pred4),
+                                 accuracy_score(y_test, y_pred5),
+                                 accuracy_score(y_test, y_pred6),]})
+final_data
+```
+![](assest/download_models.png)
+
+### Conclusion
+
+The accuracy score of the model is 86%. That means that the model predicts whether a customer will churn or not 86% of the time. By leveraging the predictive power of the model, the bank can proactively take actions to prevent customer churn and improve overall customer retention rates. By focusing resources on customers identified as likely to churn, the bank can implement targeted retention strategies, such as personalized offers, improved customer service, or loyalty programs, to keep these customers engaged and satisfied. Ultimately, this approach can help the bank optimize its retention efforts and minimize customer churn.
+
+### Limitations
+
+- Data availability: The accuracy of the churn prediction model depends on the quality and availability of historical customer data.
+- Changing factors: The factors that contribute to customer churn can evolve over time. Therefore, the churn prediction model requires regular maintenance.
+- External factors: The model may not account for external factors such as economic conditions, regulatory changes, or competitive landscape, which can influence customer churn. These factors should be considered when interpreting the predictions and implementing retention strategies.
+
+### Recommendations
+
+- Personalized retention campaigns: Tailor marketing and promotional offers to meet the specific needs and preferences of customers who are at risk of leaving. By providing targeted incentives and solutions, the bank can encourage these customers to stay.
+
+- Improve customer service: Enhance the overall customer experience by ensuring prompt and efficient support, addressing customer complaints effectively, and offering proactive assistance. By providing exceptional service, the bank can strengthen customer loyalty and reduce the likelihood of churn.
+
+- Foster customer loyalty programs: Introduce loyalty programs, rewards, and exclusive benefits for long-standing customers. By offering incentives for continued engagement, the bank can encourage customers to remain loyal and reduce the temptation to switch to competitors.
+
+Python file[Link](assest/Bank Customer Churn Prediction Using ML/bank_customer_churn_prediction.ipynb)
+
+
+# [Project 2: Wine Quality Prediction using Machine Learning](https://janalytics00.github.io/John_port/Wine-Quality-Prediction-using-Machine-Learning)
+
+
+### Overview
+![](assest/0_ZSVUxU_Tr3rrvioS.jpg)
+
+
+
+# [Project 3: Wine Quality Prediction using Machine Learning](https://janalytics00.github.io/John_port/Wine-Quality-Prediction-using-Machine-Learning)
+
+
+### Overview
+![](assest/0_ZSVUxU_Tr3rrvioS.jpg)
+
+
+# [Project 4: Google Play Store Business Problem Statement](https://janalytics00.github.io/John_port/Google-play-store-Business-Problem-Statement)
 
 ### Business Problem Statement:
 The goal is to analyze the Google Play Store Apps dataset to derive insights into the app market. We aim to understand the factors that contribute to an app's success, including its user ratings, reviews, and category. We want to explore user sentiments towards apps by analyzing the user reviews dataset. Additionally, we can see insights into the popularity of app categories based on the total number of installs and the sentiment polarity of user reviews. The ultimate objective is to provide recommendations for app developers to enhance their app's performance and user satisfaction.
@@ -127,7 +196,7 @@ Average Sentiment Polarity by App Category:
 <iframe title="Google play store" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzRiZDQwYmItNzRiZC00NDkzLWJkMGEtOTJiOTcxMzk4ZWNlIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
-# [Project 2: IBM HR Analytics Employee Attrition & Performance](https://janalytics00.github.io/John_port/IBM-HR-Analytics-Employee Attrition-&-Performance)
+# [Project 5: IBM HR Analytics Employee Attrition & Performance](https://janalytics00.github.io/John_port/IBM-HR-Analytics-Employee Attrition-&-Performance)
 
 ### Overview of the project ![](assest/2024-02-29_04-17-24.png)
 
@@ -153,7 +222,7 @@ Gained insights into the dataset using the following KPI from the data
 
 
 
-# [Project 3: Hollywood Most Profitable Stories](https://janalytics00.github.io/John_port/Hollywood-Most-Profitable-Stories)
+# [Project 6: Hollywood Most Profitable Stories](https://janalytics00.github.io/John_port/Hollywood-Most-Profitable-Stories)
 
 ### Context
 Movies are one of the biggest industries in the world. In this dataset, there are over 74 movies from 2007 and 2012. People can take this data and see what genre or what year movies make the most.
@@ -184,7 +253,7 @@ Thanks to information is beautiful.net for providing the dataset.
 
 
 
-# [Project 4: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
+# [Project 7: HR Employee Distribution Dashboard](https://janalytics00.github.io/John_port/HR-Employee-Distribution-Dashboard)
 
 ## Overview of the project ![](assest/2024-02-18_01-00-19.png)
 
@@ -270,7 +339,7 @@ Some termdates were far into the future and were not included in the analysis(15
 <iframe title="HR_Employee_report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDA2N2RiMDktZTgyMi00MmNmLWFiNDMtNGVmNDQ2Zjc1OWVhIiwidCI6ImE2ZjAzODUwLThiMDEtNDA0Yi1iM2NlLWFjNWNiODY0YjY3NiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
-# [Project 5: Nutrition Facts for McDonald's Menu Analysis](https://janalytics00.github.io/John_port/Nutrition-Facts-for-McDonald's-Menu-Analysis)
+# [Project 8: Nutrition Facts for McDonald's Menu Analysis](https://janalytics00.github.io/John_port/Nutrition-Facts-for-McDonald's-Menu-Analysis)
 
 ## Overview of the project ![](assest/mcdonaldos menu.jpg)
 
@@ -359,7 +428,7 @@ plot.show()
 
 
 
-# [Project 6: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 9: Exploratory Data Analysis Project on Udemy Course Analysis](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 ## Overview of the project ![](assest/udemy-workforce.jpg)
 
@@ -432,7 +501,7 @@ sns.barplot(x="subject",y="num_reviews", data=data)
 [View here](udemy_courses_analysis.ipynb)
 
 
-# [Project 7: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 10: HR Analytics for Employee Retention](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 ## Overview of the project ![](assest/HR analysis image.jpg)
 
@@ -522,7 +591,7 @@ By implementing the recommended strategies, organizations can foster a positive 
 
 
 
-# [Project 8: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
+# [Project 11: Data Cleaning In Pandas Python](https://janalytics00.github.io/John_port/Data-Cleaning-In-Pandas-Python)
 
 
 ## Overview of the project ![](assest/1_QJe_yTA_C8J0UudBRGbYlg.png)
@@ -580,7 +649,7 @@ Data cleaning is a crucial step in the data analysis process, and Pandas provide
 
 
 
-# [Project 9: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
+# [Project 12: Exploratory Data Analysis of Netflix TV Shows and Movies Dataset](https://janalytics00.github.io/John_port/Exploratory_Data_Analysis_of_Netflix_TV_Shows_and_Movies_Dataset)
 
 ![](assest/3024276_922742388_aa7cb42076.jpg)
 
@@ -651,7 +720,7 @@ Through this exploratory data analysis, we gained valuable insights into the Net
 
 
 
-# [Project 10: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
+# [Project 12: Exodus Cinema Popcorn Feedback Survey](https://janalytics00.github.io/John_port/Exodus-Cinema-Popcorn-Feedback-Survey)
 
 Overview:
 Undertook a comprehensive survey project for Exodus Cinemas aimed at gathering customer feedback regarding the popcorn served at the venue. The primary objective was to understand customer preferences, identify areas of improvement, and align the popcorn quality and variety with audience expectations.
@@ -667,7 +736,7 @@ Recommendations: Based on the analysis, provide actionable recommendations to en
 
 
 
-# [Project 11: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
+# [Project 13: Microsoft SQL Meets Power BI Magic!](https://janalytics00.github.io/John_port/Microsoft-SQL-Meets-Power-BI-Magic)
 
 Overview:
 Recently, I embarked on an intricate data analysis project upon a request from Sales Manager Steve.
@@ -712,7 +781,7 @@ The cherry on top? An interactive dashboard is accessible via this PowerBI embed
 
 
 
-# [Project 12: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
+# [Project 14: Adidas US Interactive Sales Dashboard](https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard)
 
 Overview:
 Designed and developed an interactive sales dashboard focused on Adidas US market performance. This dynamic tool visualizes real-time sales data, highlighting key metrics like regional sales, top-performing products, and monthly trends. By incorporating user-responsive features, stakeholders can easily customize views, allowing for intuitive, data-driven decision-making. The dashboard offers a cohesive snapshot of Adidas' market positioning and areas of growth, serving as an invaluable tool for strategists and marketers.
@@ -721,7 +790,7 @@ Designed and developed an interactive sales dashboard focused on Adidas US marke
 
 
 
-# [Project 13: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
+# [Project 15: A Bike Sales Dashboard crafted in Excel!]([https://janalytics00.github.io/John_port/Adidas-US-Interactive-Sales-Dashboard](https://www.linkedin.com/posts/john-adoga-6830071a3_dataanalytics-exceldashboard-bikesalesanalysis-activity-7112398062555213824-aNix?utm_source=share&utm_medium=member_desktop))
 
 
 🚴‍♂️ Exciting Project Alert! 📊
@@ -739,7 +808,7 @@ Would love to hear your feedback and thoughts! Let's pedal forward with data-dri
 
 
 
-# [Project 14: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
+# [Project 16: Data cleaning in Excel and Google Sheets](https://janalytics00.github.io/John_port/Data-Cleaning-In-Excel-And-Google-Sheets)
 
 Overview:
 I Engaged in a comprehensive data cleaning initiative utilizing both Excel and Google Sheets to enhance the quality and integrity of a significant dataset. The project entailed identifying and rectifying discrepancies, missing values, and potential outliers, ensuring consistency and uniformity across.
@@ -750,7 +819,7 @@ I Engaged in a comprehensive data cleaning initiative utilizing both Excel and G
 
 
 
-# [Project 12: South American Sales Dashboard (2021-2022)](https://janalytics00.github.io/John_port/South-American-Sales-Dashboard-2021-2022)
+# [Project 17: South American Sales Dashboard (2021-2022)](https://janalytics00.github.io/John_port/South-American-Sales-Dashboard-2021-2022)
 
 This dashboard offers a dynamic visual representation of sales trends in South America. Crafted with meticulous attention to detail, it boasts interactive elements, hyperlinks for in-depth external resources, and internal navigational links to enhance user experience.
 
@@ -771,7 +840,7 @@ Below is the LinkedIn embed!
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7112885235129708544?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
-# [Project 15: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
+# [Project 18: Coca-Cola Power BI Dashboard: A Blend of Data & AI](https://janalytics00.github.io/John_port/Coca-Cola-Power-BI-Dashboard-A-Blend-of-Data-&-AI)
 
 I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynamic Power BI Dashboard. Key features:
 
@@ -788,7 +857,7 @@ I had the pleasure of transforming an Excel workbook for Coca-Cola into a dynami
  
  
 
-# [Project 16: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
+# [Project 19: HR Dashboard: In-depth Analysis of Employee Demographics and Status](https://janalytics00.github.io/John_port/HR-Dashboard-In-depth-Analysis-of-Employee-Demographics-and-Status)
 
 ## In my recent project, I developed a comprehensive HR dashboard providing key insights into a company's workforce dynamics. The dashboard offers:
 
