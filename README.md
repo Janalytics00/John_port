@@ -159,18 +159,26 @@ chest pain type (4 values)
 ``` python
 # Create a countplot
 plt.bar(data['cp'].value_counts().index, data['cp'].value_counts())
+```
 
+``` python
 # Set the tick labels and rotate them
 plt.xticks([0,1,2,3], ["typical angina","atypical angina","non-anginal pain","asymptomatic"], rotation=75)
+```
 
+``` python
 # Add labels and title
 plt.xlabel('Chest Pain Type')
 plt.ylabel('Count')
 plt.title('Distribution of Chest Pain Type')
+```
 
+
+``` python
 # Show plot
 plt.show()
 ```
+
 ![](assest/download_distribution_of_chest_pain.png)
 
 5. Show The Chest Pain Distribution As Per Target Variable
