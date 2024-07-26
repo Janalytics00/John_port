@@ -98,16 +98,145 @@ The accuracy score of the model is 86%. That means that the model predicts wheth
 
 - Foster customer loyalty programs: Introduce loyalty programs, rewards, and exclusive benefits for long-standing customers. By offering incentives for continued engagement, the bank can encourage customers to remain loyal and reduce the temptation to switch to competitors.
 
-Python file[Link](assest/Bank Customer Churn Prediction Using ML/bank_customer_churn_prediction.ipynb)
+Python note [Link](assest/Bank Customer Churn Prediction Using ML/bank_customer_churn_prediction.ipynb)
 
 
-# [Project 2: Wine Quality Prediction using Machine Learning](https://janalytics00.github.io/John_port/Wine-Quality-Prediction-using-Machine-Learning)
+# [Project 2: Heart Disease Analysis](https://janalytics00.github.io/John_port/Heart_Disease_Analysis)
 
 
+
+![](assest/1_5XBmXgr1gsQ8BSC_TiGdNw.png)
 ### Overview
-![](assest/0_ZSVUxU_Tr3rrvioS.jpg)
 
+Thus preventing Heart disease has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting Heart diseases, and the predictions made are quite accurate.
 
+The project involved analysis of the heart disease patient dataset with proper data processing. Then, different models were trained and predictions were made with different algorithms KNN, Decision Tree, Random Forest, SVM, Logistic Regression, etc This is the Jupyter Notebook code and dataset I've used for my Kaggle kernel 'Binary Classification with Sklearn and Keras'
+
+I've used a variety of Machine Learning algorithms, implemented in Python, to predict the presence of heart disease in a patient. This is a classification problem, with input features as a variety of parameters, and the target variable as a binary variable, predicting whether heart disease is present or not.
+
+#### Exploring the Dataset to find the following:
+
+1. Count of Male & Female in this Dataset
+
+``` python
+sns.histplot(data['sex'])
+plt.show()
+```
+![](assest/download_count male_and_female.png)
+
+2. Gender Distribution According to The Target Variable
+
+``` python
+sns.countplot(x='sex', hue="target", data=data)
+plt.xticks([1,0], ['Male','Female'])
+plt.legend(labels=['No-Disease','Disease'])
+plt.show()
+```
+![](assest/download_heart_disease_sex_distribution.png)
+
+``` python
+sns.displot(data['age'], bins=20)
+plt.show()
+```
+![](assest/download_age.png)
+
+3. Age Distribution In The Dataset
+
+``` python
+sns.countplot(x='sex', hue="target", data=data)
+plt.xticks([1,0], ['Male','Female'])
+plt.legend(labels=['No-Disease','Disease'])
+plt.show()
+```
+![](assest/download_age_distribution.png)
+
+4. Check Chest Pain Type
+
+chest pain type (4 values)
+- Value 0: typical angina
+- Value 1: atypical angina
+- Value 2: non-anginal pain
+- Value 3: asymptomatic
+``` python
+# Create a countplot
+plt.bar(data['cp'].value_counts().index, data['cp'].value_counts())
+
+# Set the tick labels and rotate them
+plt.xticks([0,1,2,3], ["typical angina","atypical angina","non-anginal pain","asymptomatic"], rotation=75)
+
+# Add labels and title
+plt.xlabel('Chest Pain Type')
+plt.ylabel('Count')
+plt.title('Distribution of Chest Pain Type')
+
+# Show plot
+plt.show()
+```
+![](assest/download_distribution_of_chest_pain.png)
+
+5. Show The Chest Pain Distribution As Per Target Variable
+``` python
+sns.countplot(x="cp", hue="target", data=data)
+plt.legend(labels=["No-Disease","Disease"])
+plt.show()
+```
+![](assest/download_chest_pain_distribution_as_per_target.png)
+
+6. Fasting Blood Sugar Distribution According To Target Variable
+
+``` python
+# fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+sns.countplot(x="fbs", hue="target", data=data)
+plt.legend(labels=["No-Disease","Disease"])
+plt.show()
+```
+![](assest/download_fasting_blood_sugar_distribution.png)
+
+7. Resting Blood Pressure Distribution
+``` python
+data['trestbps'].hist()
+```
+![](assest/download_resting_blood_pressure_distribution.png)
+
+8. Resting Blood Pressure As Per Sex Column
+``` python
+g = sns.FacetGrid(data, hue="sex", aspect=3)
+g.map(sns.kdeplot,'trestbps', fill=True)
+plt.legend(labels=['Male', 'Female'])
+```
+![](assest/download_resting_blood_pressure_as_per_sex_column.png)
+
+9. Plot Continuous Variables
+``` python
+data.columns
+```
+``` python
+cate_val = []
+cont_val=[]
+
+for column in data.columns:
+  if data[column].nunique() <=10:
+    cate_val.append(column)
+  else:
+    cont_val.append(column)
+```
+``` python
+cate_val
+```
+``` python
+cont_val
+```
+``` python
+data.hist(cont_val, figsize=(15,6))
+plt.tight_layout()
+plt.show()
+```
+![](assest/download_age.png)
+![](assest/download_thalach.png)
+![](assest/download_trestbps.png)
+![](assest/download_chol.png)
+
+#### Dataset used [Link](assest/Heart Disease Analysis/heart.csv)
 
 # [Project 3: Wine Quality Prediction using Machine Learning](https://janalytics00.github.io/John_port/Wine-Quality-Prediction-using-Machine-Learning)
 
