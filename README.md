@@ -98,7 +98,7 @@ The accuracy score of the model is 86%. That means that the model predicts wheth
 
 - Foster customer loyalty programs: Introduce loyalty programs, rewards, and exclusive benefits for long-standing customers. By offering incentives for continued engagement, the bank can encourage customers to remain loyal and reduce the temptation to switch to competitors.
 
-Python note [Link](assest/Bank Customer Churn Prediction Using ML/bank_customer_churn_prediction.ipynb)
+#### Python notebook [Link](assest/Bank Customer Churn Prediction Using ML/bank_customer_churn_prediction.ipynb)
 
 
 # [Project 2: Heart Disease Analysis](https://janalytics00.github.io/John_port/Heart_Disease_Analysis)
@@ -138,7 +138,6 @@ plt.show()
 sns.displot(data['age'], bins=20)
 plt.show()
 ```
-![](assest/download_age.png)
 
 3. Age Distribution In The Dataset
 
@@ -148,7 +147,7 @@ plt.xticks([1,0], ['Male','Female'])
 plt.legend(labels=['No-Disease','Disease'])
 plt.show()
 ```
-![](assest/download_age_distribution.png)
+
 
 4. Check Chest Pain Type
 
@@ -232,17 +231,177 @@ plt.tight_layout()
 plt.show()
 ```
 ![](assest/download_age.png)
-![](assest/download_thalach.png)
-![](assest/download_trestbps.png)
-![](assest/download_chol.png)
+
 
 #### Dataset used [Link](assest/Heart Disease Analysis/heart.csv)
 
 # [Project 3: Wine Quality Prediction using Machine Learning](https://janalytics00.github.io/John_port/Wine-Quality-Prediction-using-Machine-Learning)
 
-
-### Overview
 ![](assest/0_ZSVUxU_Tr3rrvioS.jpg)
+### Overview
+For this project, I used Kaggle’s Red Wine Quality dataset to build various classification models to predict whether a particular red wine is “good quality” or not. Each wine in this dataset is given a “quality” score between 0 and 10. For this project, I converted the output to a binary output where each wine is either “good quality” (a score of 7 or higher) or not (a score below 7). The quality of a wine is determined by 11 input variables:
+
+- Fixed acidity
+- Volatile acidity
+- Citric acid
+- Residual sugar
+- Chlorides
+- Free sulfur dioxide
+- Total sulfur dioxide
+- Density
+- pH
+- Sulfates
+- Alcohol
+
+1. Quality Vs. Fixed Acidity
+
+``` python
+plt.bar(data['quality'], data['fixed acidity'])
+plt.xlabel('Quality')
+plt.ylabel('Fixed acidity')
+plt
+```
+![](assest/quality_vs_fixed_acidity.png)
+
+2. Volatile Acidity Vs. Quality
+
+``` python
+plt.bar(data['quality'], data['volatile acidity'])
+plt.xlabel('Quality')
+plt.ylabel('volatile acidity')
+plt
+```
+![](assest/volatile_acidity_vs_quality_img.png)
+
+3. Residual sugar Vs. Quality
+
+``` python
+plt.bar(data['quality'], data['residual sugar'])
+plt.xlabel('Quality')
+plt.ylabel('Residual sugar')
+plt
+```
+![](assest/residual_sugar_vs_quality.png)
+
+4. Chlorides Vs. Quality
+
+``` python
+plt.bar(data['quality'], data['chlorides'])
+plt.xlabel('Quality')
+plt.ylabel('Chlorides')
+plt.show()
+```
+![](assest/chlorides_vs_quality.png)
+
+5. Total sulfur dioxide Vs. Quality
+
+``` python
+plt.bar(data['quality'], data['total sulfur dioxide'])
+plt.xlabel('Quality')
+plt.ylabel('Total sulfur dioxide')
+plt.show()
+```
+![](assest/total_sulfur_dioxide_vs_quality.png)
+
+6. Alcohol Vs. Quality
+
+``` python
+plt.bar(data['quality'], data['alcohol'])
+plt.xlabel('Quality')
+plt.ylabel('Alcohol')
+plt.show()
+```
+![](assest/alcohol_vs_quality.png)
+
+7. Correlation Matrix
+
+``` python
+plt.figure(figsize=(10,5))
+sns.heatmap(data.corr(), annot=True,fmt='0.1f')
+```
+![](assest/correlation_matrix.png)
+
+8. Binarization of target variable
+
+``` python
+data['quality'].unique()
+```
+``` python
+data['quality'] = [1 if x>=7 else 0 for x in data['quality']]
+```
+``` python
+data['quality'].unique()
+```
+
+9. Splitting The Dataset Into the Training Set and Test Set
+
+``` python
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X_res, y_res, test_size=0.20, random_state=42)
+```
+10. Feature Scaling
+
+``` python
+from sklearn.preprocessing import StandardScaler
+
+st = StandardScaler()
+X_train = st.fit_transform(X_train)
+X_test = st.transform(X_test)
+
+X_train
+```
+11. Logistic Regression
+
+``` python
+from sklearn.linear_model import LogisticRegression
+
+log = LogisticRegression()
+log.fit(X_train, y_train)
+
+y_pred1 = log.predict(X_test)
+
+from sklearn.metrics import accuracy_score
+
+accuracy_score(y_test, y_pred1)
+
+from sklearn.metrics import precision_score, recall_score,f1_score
+
+precision_score(y_test, y_pred1)
+
+precision_score(y_test, y_pred1)
+
+recall_score(y_test, y_pred1)
+
+f1_score(y_test, y_pred1)
+```
+``` python
+final_data = pd.DataFrame({'Models':['LR', 'SVC','KNN','DT','RF','GBC'],
+              'ACC':[accuracy_score(y_test,y_pred1)*100,
+                    accuracy_score(y_test,y_pred2)*100,
+                    accuracy_score(y_test,y_pred3)*100,
+                    accuracy_score(y_test,y_pred4)*100,
+                    accuracy_score(y_test,y_pred5)*100,
+                    accuracy_score(y_test,y_pred6)*100]})
+```
+``` python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Assuming final_data is a DataFrame with 'Models' and 'ACC' columns
+sns.barplot(x='Models', y='ACC', data=final_data)
+
+plt.xlabel('Quality')
+plt.ylabel('ACC')
+plt.title('ACC by Model')
+plt.show()
+```
+![](assest/acc_by_model.png)
+
+#### Python Notebook [Link](assest/Wine Quality Prediction/wine_quality_prediction.ipynb)
+
+#### Link to the data file
+[View here](assest/Wine Quality Prediction/winequality-red.csv)
 
 
 # [Project 4: Google Play Store Business Problem Statement](https://janalytics00.github.io/John_port/Google-play-store-Business-Problem-Statement)
