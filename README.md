@@ -1,5 +1,5 @@
-![]([(https://media.licdn.com/dms/image/D4D16AQGuNp7-svqCLw/profile-displaybackgroundimage-shrink_350_1400/0/1719354699843?e=1727308800&v=beta&t=4rJ3jXFdagocF-SAPy2cRRKTKAQHApWUGRtAWFzu0Vc))]
 ![]([assest/Twitter cover photo.jpg]
+
 # John Adoga
 ## Data & Analytics Analyst | Visualization Expert | Business Analyst | Human Resource Manager | HR Analyst
 
